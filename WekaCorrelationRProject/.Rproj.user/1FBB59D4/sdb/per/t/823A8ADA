@@ -1,0 +1,16 @@
+{
+    "contents" : "library(foreign)\n\nGaussianProcesses <- read.arff(\"../weka-files/output/regression/GaussianProcesses.output.arff\")\n\npredictedoverallGaussianProcesses <- GaussianProcesses[,13]\noverallGaussianProcesses <- GaussianProcesses[,14]\n\ncorrelationGaussianProcesses <- cor.test(\n  overallGaussianProcesses, \n  predictedoverallGaussianProcesses, \n  method=\"pearson\",\n  alternative=\"two.sided\",\n  continuity=true)\n\ncorrelationGaussianProcesses\n",
+    "created" : 1424269676083.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3040196180",
+    "id" : "823A8ADA",
+    "lastKnownWriteTime" : 1424269156,
+    "path" : "C:/Users/Leandro/git/dissertacao-mestrado/WekaCorrelationRProject/GaussianProcesses.R",
+    "project_path" : "GaussianProcesses.R",
+    "properties" : {
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}

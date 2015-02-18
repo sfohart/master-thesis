@@ -1,0 +1,16 @@
+{
+    "contents" : "#Você utiliza software livre?\nlibrary(graphics)\nusa_floss <- data[,8]\ntable(usa_floss)\n\n\nusa_floss_grafico <- barplot(\n    table(usa_floss[-1]), \n    main=\"Você utiliza software livre?\",\n    names.arg = c(\"Sim\",\"Não\"),\n    col=c(\"darkgreen\",\"red\"),\n    cex.axis = 0.7,\n    cex.names = 0.7,\n    cex.main = 0.8,\n    ylim=c(0,170),\n    ylab=\"Total\")\n\n\ntext(\n  usa_floss_grafico, \n  table(usa_floss[-1]), \n  labels = format(table(usa_floss[-1]), 4),\n  pos = 3, \n  cex = .55)\n\ndev.copy(png,\"graficos/01-uso-floss.png\", width=861, height=545, units = \"px\")\ndev.off()",
+    "created" : 1405475434556.000,
+    "dirty" : false,
+    "encoding" : "ISO8859-1",
+    "folds" : "",
+    "hash" : "3719080740",
+    "id" : "8A4C60EA",
+    "lastKnownWriteTime" : 1389732068,
+    "path" : "/media/sfohart/Backup/Dropbox/Mestrado - Leandro Soriano Ferreira/Pesquisa/Questionário de Pesquisa/Dados/Completas Apenas/voceUsaSoftwareLivre.R",
+    "project_path" : "voceUsaSoftwareLivre.R",
+    "properties" : {
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}

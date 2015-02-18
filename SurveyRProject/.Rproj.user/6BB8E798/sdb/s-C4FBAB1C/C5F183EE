@@ -1,0 +1,16 @@
+{
+    "contents" : "A <- table(as.numeric(data[,9]))\nB <- table(as.numeric(data[,10]))\nC <- table(as.numeric(data[,11]))\nD <- table(as.numeric(data[,12]))\n\n\nfloss_type <- cbind(A,B,C,D)\nrm(A,B,C,D)\n\npar(mfrow=c(1,1))\n\nfloss_type_graph <- barplot(\n    floss_type,\n    beside = TRUE,\n    ylim=c(0,150),\n    cex.axis = 0.8,\n    cex.names = 1.0,\n    offset = 1.5,\n    legend.text = c(\"Sim\",\"Não\"),\n    args.legend = list(x = 10, y=160, bty=\"n\", cex = 0.8),\n    col=c(\"darkgreen\",\"red\"),\n    cex.main = 0.9,\n    main=\"Que tipo de software livre você utiliza?\",\n    names.arg = c(\n        \"Software de\\n Sistema\",\n        \"Ferramentas de\\n Programação\",\n        \"Software de\\n Uso Geral\",\n        \"Software de\\n Uso Específico\")\n  )\n\n\ntext(\n    floss_type_graph, \n    floss_type, \n    labels = format(floss_type, 4),\n    pos = 3, \n    cex = .7)\n\n\ndev.copy(png,\"graficos/02-tipo-floss-utilizado.png\", width=861, height=545, units = \"px\")\ndev.off()\n",
+    "created" : 1405475442705.000,
+    "dirty" : false,
+    "encoding" : "ISO8859-1",
+    "folds" : "",
+    "hash" : "1190182278",
+    "id" : "C5F183EE",
+    "lastKnownWriteTime" : 1405478238,
+    "path" : "/media/sfohart/Backup/Dropbox/Mestrado - Leandro Soriano Ferreira/Pesquisa/Questionário de Pesquisa/Dados/Completas Apenas/queTipoDeSoftwareLivreVoceUsa.R",
+    "project_path" : "queTipoDeSoftwareLivreVoceUsa.R",
+    "properties" : {
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}

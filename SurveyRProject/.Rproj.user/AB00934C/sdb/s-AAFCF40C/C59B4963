@@ -1,0 +1,16 @@
+{
+    "contents" : "tempo_uso <- cbind( table( as.numeric(data[,15]) ) )\n\n#par(mfrow=c(1,1))\n\ntempo_uso_grafico <- \n  barplot (\n    tempo_uso,\n    space = c(0, 0.25, 0.25, 0.25, 0.25, 0.25),\n    beside = TRUE,\n    cex.axis = 0.7,\n    cex.names = 0.7,\n    cex.main = 0.9,\n    ylim=c(0,60),\n    main=\"Há quanto tempo você utiliza software livre?\",\n    col=rainbow(6),\n    args.legend = list(x = 5, y = 0, bty=\"n\", cex = 0.8, ncol=2),\n    legend.text = c(\"Utilizo há menos de 6 meses\",\n                    \"Utilizo entre 6 meses e 1 ano\",\n                    \"Utilizo entre 1 e 2 anos\",\n                    \"Utilizo entre 3 e 5 anos\",\n                    \"Utilizo entre 5 e 10 anos\",\n                    \"Utilizo há mais de 10 anos\")\n  )\n\ntext(\n  tempo_uso_grafico, \n  tempo_uso, \n  labels = format(tempo_uso, 4),\n  pos = 3, \n  cex = .7)\n\ndev.copy(png,\"graficos/05-tempo-uso-floss.png\", width=861, height=545, units = \"px\")\ndev.off()",
+    "created" : 1405900506970.000,
+    "dirty" : false,
+    "encoding" : "ISO8859-1",
+    "folds" : "",
+    "hash" : "3058116598",
+    "id" : "C59B4963",
+    "lastKnownWriteTime" : 1389732308,
+    "path" : "E:/Dropbox/Mestrado - Leandro Soriano Ferreira/Pesquisa/Questionário de Pesquisa/Dados/Completas Apenas/tempoUsoFLOSS.R",
+    "project_path" : "tempoUsoFLOSS.R",
+    "properties" : {
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}

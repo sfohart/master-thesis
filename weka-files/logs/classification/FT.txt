@@ -1,0 +1,540 @@
+=== Run information ===
+
+Scheme:weka.classifiers.trees.FT -I 15 -F 0 -M 15 -W 0.0
+Relation:     multicriteria-weka.filters.unsupervised.attribute.NumericToNominal-Rfirst-last
+Instances:    223
+Attributes:   13
+              user
+              project
+              criterium1
+              criterium2
+              criterium3
+              criterium4
+              criterium5
+              criterium6
+              criterium7
+              criterium8
+              criterium9
+              criterium10
+              overall
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+FT tree 
+------------------
+
+N3#1 <= 0.29158
+|   N4#2 <= 0.470112: FT_1:15/45 (88)
+|   N4#2 > 0.470112: FT_2:15/45 (111)
+N3#1 > 0.29158: Class=3
+
+Number of Leaves  : 	3
+
+Size of the Tree : 	5
+FT_N3#1:
+Class 0 :
+-12.56 + 
+[user=14] * 10.03 +
+[project=3855] * 1.36 +
+[project=3926] * 2.46 +
+[criterium5=5] * 2.44 +
+[criterium8=5] * 1.64 +
+[criterium9=4] * 2.45 +
+[criterium10=5] * 1.27
+
+Class 1 :
+-12.88 + 
+[user=9] * 5.11 +
+[project=32] * 8.05 +
+[criterium7=0] * 7.19
+
+Class 2 :
+-5.5 + 
+[user=9] * 1.35 +
+[project=172] * 6.11 +
+[criterium3=3] * 2.89 +
+[criterium4=2] * 3.5  +
+[criterium7=2] * 11.28 +
+[criterium7=4] * -1.52 +
+[criterium7=5] * -1.45
+
+Class 3 :
+-0.86 + 
+[user=67] * 1.28 +
+[project=627] * 2.54 +
+[project=3489] * -2.12 +
+[project=3644] * 2.53 +
+[criterium1=1] * 1.81 +
+[criterium1=2] * 1.76 +
+[criterium1=5] * -1.03 +
+[criterium2=2] * 1.61 +
+[criterium3=3] * 3.62 +
+[criterium5=5] * -1.22 +
+[criterium7=3] * 1.28 +
+[criterium7=5] * -1.46 +
+[criterium8=0] * 1.13 +
+[criterium10=2] * 1.53
+
+Class 4 :
+0.81 + 
+[user=36] * 2.14 +
+[user=40] * -2.12 +
+[project=1] * -2.37 +
+[project=88] * -2.41 +
+[project=114] * 2.53 +
+[project=278] * -1.41 +
+[project=3489] * 1.49 +
+[project=4139] * 1.89 +
+[project=6303] * 2    +
+[project=16813] * -2.53 +
+[criterium2=4] * 1.09 +
+[criterium4=4] * 0.48 +
+[criterium5=3] * 0.81 +
+[criterium7=3] * -1.24 +
+[criterium10=4] * 0.85
+
+Class 5 :
+-1.01 + 
+[user=73] * 1.21 +
+[user=84] * 2.04 +
+[user=89] * 1.03 +
+[project=278] * 1.41 +
+[project=3926] * -1.42 +
+[project=4139] * -1.89 +
+[criterium2=5] * 1.76 +
+[criterium3=4] * -0.91 +
+[criterium4=4] * -0.58 +
+[criterium5=5] * 0.53 +
+[criterium7=5] * 1.42 +
+[criterium8=4] * 0.68 +
+[criterium9=3] * -0.78 +
+[criterium9=5] * 0.68 +
+[criterium10=0] * 0.92
+
+FT_N4#2:
+Class 0 :
+-20.34 + 
+[user=14] * 19.94 +
+[project=3855] * 1.36 +
+[project=3926] * 2.46 +
+[criterium2=4] * -3.56 +
+[criterium5=5] * 3.55 +
+[criterium8=0] * -1.17 +
+[criterium8=5] * 1.64 +
+[criterium9=4] * 3.52 +
+[criterium10=5] * 2.39
+
+Class 1 :
+-25.38 + 
+[user=9] * 11.95 +
+[project=32] * 14.34 +
+[criterium7=0] * 13.62
+
+Class 2 :
+-10.31 + 
+[user=9] * 1.35 +
+[project=172] * 6.11 +
+[criterium3=3] * 9.07 +
+[criterium3=5] * -1.28 +
+[criterium4=2] * 3.5  +
+[criterium5=0] * 1.19 +
+[criterium7=2] * 20.25 +
+[criterium7=4] * -1.52 +
+[criterium7=5] * -3
+
+Class 3 :
+-13.5 + 
+[user=67] * 1.28 +
+[project=627] * 2.54 +
+[project=3489] * -2.12 +
+[project=3644] * 2.53 +
+[criterium1=1] * 1.81 +
+[criterium1=2] * 1.76 +
+[criterium1=5] * -1.03 +
+[criterium2=2] * 1.61 +
+[criterium3=3] * 3.62 +
+[criterium5=5] * -1.22 +
+[criterium6=0] * 0    +
+[criterium7=0] * -0.25 +
+[criterium7=3] * 1.28 +
+[criterium7=5] * -1.46 +
+[criterium8=0] * 1.13 +
+[criterium9=0] * -0.08 +
+[criterium10=2] * 1.53
+
+Class 4 :
+1.48 + 
+[user=9] * 0.75 +
+[user=36] * 3.59 +
+[user=40] * -2.12 +
+[user=73] * -1 +
+[user=84] * -1.4 +
+[user=86] * -1.76 +
+[project=1] * -2.37 +
+[project=88] * -2.41 +
+[project=114] * 2.53 +
+[project=151] * -0.86 +
+[project=278] * -1.41 +
+[project=3489] * 1.49 +
+[project=3745] * -2.17 +
+[project=4139] * 1.89 +
+[project=4696] * -1.61 +
+[project=6303] * 2    +
+[project=7290] * 2.52 +
+[project=15984] * -2.52 +
+[project=16466] * 2.51 +
+[project=16813] * -2.53 +
+[criterium2=4] * 1.09 +
+[criterium3=4] * 0.47 +
+[criterium3=5] * -0.53 +
+[criterium4=4] * 0.48 +
+[criterium5=3] * 0.81 +
+[criterium5=5] * -0.42 +
+[criterium6=2] * -2.39 +
+[criterium7=3] * -1.24 +
+[criterium10=4] * 0.85
+
+Class 5 :
+-1.67 + 
+[user=9] * -0.76 +
+[user=36] * -1.45 +
+[user=73] * 2.21 +
+[user=84] * 3.44 +
+[user=86] * 1.76 +
+[user=89] * 1.03 +
+[project=151] * 0.86 +
+[project=278] * 1.41 +
+[project=3745] * 2.17 +
+[project=3926] * -1.42 +
+[project=4139] * -1.89 +
+[project=4696] * 1.61 +
+[project=7290] * -2.52 +
+[project=15984] * 2.51 +
+[project=16466] * -2.57 +
+[criterium2=5] * 1.76 +
+[criterium3=4] * -0.91 +
+[criterium3=5] * 0.53 +
+[criterium4=4] * -0.58 +
+[criterium5=0] * 0.68 +
+[criterium5=5] * 0.95 +
+[criterium6=2] * 2.39 +
+[criterium7=5] * 1.42 +
+[criterium8=4] * 0.68 +
+[criterium9=3] * -0.78 +
+[criterium9=5] * 0.68 +
+[criterium10=0] * 0.92
+
+FT_1:
+Class 0 :
+-32.84 + 
+[user=14] * 44.94 +
+[project=3855] * 1.36 +
+[project=3926] * 2.46 +
+[criterium2=4] * -3.56 +
+[criterium5=5] * 3.55 +
+[criterium8=0] * -1.17 +
+[criterium8=5] * 1.64 +
+[criterium9=4] * 3.52 +
+[criterium10=5] * 2.39
+
+Class 1 :
+-37.88 + 
+[user=9] * 11.95 +
+[project=32] * 39.34 +
+[criterium7=0] * 13.62
+
+Class 2 :
+-8.42 + 
+[user=9] * 1.35 +
+[project=151] * -5.34 +
+[project=172] * 6.11 +
+[criterium2=5] * -2.7 +
+[criterium3=3] * 11.55 +
+[criterium3=5] * -1.28 +
+[criterium4=2] * 3.5  +
+[criterium4=5] * -1.46 +
+[criterium5=0] * 2.66 +
+[criterium7=2] * 23.84 +
+[criterium7=4] * -1.52 +
+[criterium7=5] * -5.62
+
+Class 3 :
+-26 + 
+[user=67] * 1.28 +
+[project=165] * 0    +
+[project=627] * 2.54 +
+[project=3489] * -2.12 +
+[project=3644] * 2.53 +
+[criterium1=1] * 1.81 +
+[criterium1=2] * 1.76 +
+[criterium1=4] * 0    +
+[criterium1=5] * -1.03 +
+[criterium2=2] * 1.61 +
+[criterium3=3] * 3.62 +
+[criterium4=0] * 0    +
+[criterium4=5] * 0    +
+[criterium5=5] * -1.22 +
+[criterium6=0] * 0    +
+[criterium7=0] * -0.25 +
+[criterium7=3] * 1.28 +
+[criterium7=5] * -1.46 +
+[criterium8=0] * 1.13 +
+[criterium9=0] * -0.08 +
+[criterium10=2] * 1.53
+
+Class 4 :
+-2.16 + 
+[user=9] * 0.75 +
+[user=16] * -2.1 +
+[user=36] * 3.59 +
+[user=40] * -2.12 +
+[user=66] * 2.26 +
+[user=73] * 1.86 +
+[user=84] * -1.4 +
+[user=86] * -1.76 +
+[project=1] * -2.37 +
+[project=88] * -2.41 +
+[project=114] * 2.53 +
+[project=151] * -0.86 +
+[project=165] * -1.41 +
+[project=278] * -1.41 +
+[project=3489] * 1.49 +
+[project=3499] * 1.66 +
+[project=3745] * -2.17 +
+[project=3855] * 3.28 +
+[project=4139] * 1.89 +
+[project=4696] * 1.06 +
+[project=6303] * 2    +
+[project=7290] * 2.52 +
+[project=15984] * -2.52 +
+[project=16466] * 2.51 +
+[project=16813] * -2.53 +
+[project=26825] * 4.01 +
+[criterium2=4] * 1.09 +
+[criterium3=4] * 0.47 +
+[criterium3=5] * -0.53 +
+[criterium4=4] * 0.48 +
+[criterium5=3] * 0.81 +
+[criterium5=4] * -3.49 +
+[criterium5=5] * -0.42 +
+[criterium6=2] * -2.39 +
+[criterium7=3] * -1.24 +
+[criterium9=4] * 1.92 +
+[criterium10=3] * 2.68 +
+[criterium10=4] * 0.85
+
+Class 5 :
+1.98 + 
+[user=9] * -0.76 +
+[user=16] * 2.1  +
+[user=36] * -1.45 +
+[user=66] * -2.26 +
+[user=73] * -0.65 +
+[user=84] * 3.44 +
+[user=86] * 1.76 +
+[user=89] * 1.03 +
+[project=151] * 0.86 +
+[project=165] * 1.41 +
+[project=278] * 1.41 +
+[project=3499] * -1.66 +
+[project=3745] * 2.17 +
+[project=3855] * -3.28 +
+[project=3926] * -1.42 +
+[project=4139] * -1.89 +
+[project=4696] * -1.06 +
+[project=7290] * -2.52 +
+[project=15984] * 2.51 +
+[project=16466] * -2.57 +
+[project=26825] * -4.01 +
+[criterium2=5] * 1.76 +
+[criterium3=4] * -0.91 +
+[criterium3=5] * 0.53 +
+[criterium4=4] * -0.58 +
+[criterium5=0] * 0.68 +
+[criterium5=4] * 3.49 +
+[criterium5=5] * 0.95 +
+[criterium6=2] * 2.39 +
+[criterium7=5] * 1.42 +
+[criterium8=4] * 0.68 +
+[criterium9=3] * -0.78 +
+[criterium9=4] * -1.92 +
+[criterium9=5] * 0.68 +
+[criterium10=0] * 0.92 +
+[criterium10=3] * -2.68
+
+FT_2:
+Class 0 :
+-32.84 + 
+[user=14] * 19.94 +
+[project=43] * 0    +
+[project=3855] * 1.36 +
+[project=3926] * 2.46 +
+[criterium2=4] * -3.56 +
+[criterium5=5] * 3.55 +
+[criterium8=0] * -1.17 +
+[criterium8=5] * 1.64 +
+[criterium9=4] * 3.52 +
+[criterium10=5] * 2.39
+
+Class 1 :
+-37.88 + 
+[user=9] * 11.95 +
+[project=32] * 14.34 +
+[project=3547] * 0    +
+[criterium7=0] * 13.62
+
+Class 2 :
+-22.81 + 
+[user=9] * 1.35 +
+[project=172] * 6.11 +
+[project=3547] * 0    +
+[criterium3=3] * 9.07 +
+[criterium3=5] * -1.28 +
+[criterium4=2] * 3.5  +
+[criterium5=0] * 1.19 +
+[criterium7=2] * 20.25 +
+[criterium7=4] * -1.52 +
+[criterium7=5] * -3
+
+Class 3 :
+-26 + 
+[user=67] * 1.28 +
+[project=627] * 2.54 +
+[project=3489] * -2.12 +
+[project=3547] * 0    +
+[project=3644] * 2.53 +
+[project=3975] * 0    +
+[criterium1=1] * 1.81 +
+[criterium1=2] * 1.76 +
+[criterium1=5] * -1.03 +
+[criterium2=2] * 1.61 +
+[criterium3=3] * 3.62 +
+[criterium5=5] * -1.22 +
+[criterium6=0] * 0    +
+[criterium7=0] * -0.25 +
+[criterium7=3] * 1.28 +
+[criterium7=5] * -1.46 +
+[criterium8=0] * 1.13 +
+[criterium9=0] * -0.08 +
+[criterium10=2] * 1.53
+
+Class 4 :
+3.5  + 
+[user=9] * 0.75 +
+[user=36] * 3.59 +
+[user=40] * -2.12 +
+[user=70] * -1.67 +
+[user=73] * -1 +
+[user=84] * -1.4 +
+[user=85] * -2.01 +
+[user=86] * -1.76 +
+[user=89] * -1.82 +
+[project=1] * -2.37 +
+[project=9] * -2.69 +
+[project=88] * -2.41 +
+[project=114] * 2.53 +
+[project=151] * -0.86 +
+[project=278] * -1.41 +
+[project=3489] * 1.49 +
+[project=3517] * -2.63 +
+[project=3745] * -2.17 +
+[project=3855] * -2.96 +
+[project=4139] * 1.89 +
+[project=4696] * -1.61 +
+[project=6303] * 2    +
+[project=7290] * 2.52 +
+[project=15984] * -2.52 +
+[project=16466] * 2.51 +
+[project=16813] * -2.53 +
+[criterium2=4] * -0.34 +
+[criterium2=5] * -1.56 +
+[criterium3=4] * 0.47 +
+[criterium3=5] * -0.53 +
+[criterium4=4] * 0.48 +
+[criterium4=5] * 1.38 +
+[criterium5=3] * 0.81 +
+[criterium5=5] * -0.42 +
+[criterium6=2] * -2.39 +
+[criterium7=3] * -1.24 +
+[criterium8=5] * 2.36 +
+[criterium10=4] * 2.76 +
+[criterium10=5] * 1.44
+
+Class 5 :
+-3.68 + 
+[user=9] * -0.76 +
+[user=36] * -1.45 +
+[user=70] * 1.67 +
+[user=73] * 2.21 +
+[user=84] * 3.44 +
+[user=85] * 2.01 +
+[user=86] * 1.76 +
+[user=89] * 2.86 +
+[project=9] * 2.69 +
+[project=151] * 0.86 +
+[project=278] * 1.41 +
+[project=3517] * 2.63 +
+[project=3745] * 2.17 +
+[project=3855] * 2.96 +
+[project=3926] * -1.42 +
+[project=4139] * -1.89 +
+[project=4696] * 1.61 +
+[project=7290] * -2.52 +
+[project=15984] * 2.51 +
+[project=16466] * -2.57 +
+[criterium2=4] * 1.43 +
+[criterium2=5] * 3.31 +
+[criterium3=4] * -0.91 +
+[criterium3=5] * 0.53 +
+[criterium4=4] * -0.58 +
+[criterium4=5] * -1.38 +
+[criterium5=0] * 0.68 +
+[criterium5=5] * 0.95 +
+[criterium6=2] * 2.39 +
+[criterium7=5] * 1.42 +
+[criterium8=4] * 0.68 +
+[criterium8=5] * -2.36 +
+[criterium9=3] * -0.78 +
+[criterium9=5] * 0.68 +
+[criterium10=0] * 0.92 +
+[criterium10=4] * -1.91 +
+[criterium10=5] * -1.44
+
+
+
+Time taken to build model: 0.56 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         149               66.8161 %
+Incorrectly Classified Instances        74               33.1839 %
+Kappa statistic                          0.4427
+Mean absolute error                      0.112 
+Root mean squared error                  0.3257
+Relative absolute error                 55.6591 %
+Root relative squared error            103.23   %
+Total Number of Instances              223     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 1         0.005      0.667     1         0.8        0.995    0
+                 0         0          0         0         0          0.047    1
+                 0         0          0         0         0          0.114    2
+                 0.524     0.059      0.478     0.524     0.5        0.861    3
+                 0.705     0.279      0.718     0.705     0.712      0.727    4
+                 0.679     0.216      0.655     0.679     0.667      0.771    5
+Weighted Avg.    0.668     0.227      0.659     0.668     0.663      0.747
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e  f   <-- classified as
+  2  0  0  0  0  0 |  a = 0
+  0  0  0  1  0  0 |  b = 1
+  0  0  0  2  0  1 |  c = 2
+  0  0  0 11  7  3 |  d = 3
+  1  0  0  6 79 26 |  e = 4
+  0  0  0  3 24 57 |  f = 5
+

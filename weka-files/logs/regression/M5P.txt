@@ -1,0 +1,51 @@
+=== Run information ===
+
+Scheme:weka.classifiers.trees.M5P -M 4.0
+Relation:     multicriteria
+Instances:    223
+Attributes:   13
+              user
+              project
+              criterium1
+              criterium2
+              criterium3
+              criterium4
+              criterium5
+              criterium6
+              criterium7
+              criterium8
+              criterium9
+              criterium10
+              overall
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+M5 pruned model tree:
+(using smoothed linear models)
+LM1 (223/80.604%)
+
+LM num: 1
+overall = 
+	0.0048 * user 
+	+ 0.1158 * criterium1 
+	+ 0.1091 * criterium2 
+	+ 0.1212 * criterium3 
+	+ 0.0408 * criterium6 
+	+ 0.1661 * criterium7 
+	+ 1.652
+
+Number of Rules : 1
+
+Time taken to build model: 0.05 seconds
+
+=== Cross-validation ===
+=== Summary ===
+
+Correlation coefficient                  0.4705
+Mean absolute error                      0.4972
+Root mean squared error                  0.7397
+Relative absolute error                 83.0511 %
+Root relative squared error             90.4541 %
+Total Number of Instances              223     
+

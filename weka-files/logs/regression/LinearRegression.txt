@@ -1,0 +1,49 @@
+=== Run information ===
+
+Scheme:weka.classifiers.functions.LinearRegression -S 0 -R 1.0E-8
+Relation:     multicriteria
+Instances:    223
+Attributes:   13
+              user
+              project
+              criterium1
+              criterium2
+              criterium3
+              criterium4
+              criterium5
+              criterium6
+              criterium7
+              criterium8
+              criterium9
+              criterium10
+              overall
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+
+Linear Regression Model
+
+overall =
+
+      0.0053 * user +
+      0.11   * criterium1 +
+      0.1153 * criterium2 +
+      0.1173 * criterium3 +
+      0.0697 * criterium6 +
+      0.1752 * criterium7 +
+     -0.0502 * criterium8 +
+      1.626 
+
+Time taken to build model: 0.03 seconds
+
+=== Cross-validation ===
+=== Summary ===
+
+Correlation coefficient                  0.5121
+Mean absolute error                      0.4946
+Root mean squared error                  0.7085
+Relative absolute error                 82.6204 %
+Root relative squared error             86.6482 %
+Total Number of Instances              223     
+

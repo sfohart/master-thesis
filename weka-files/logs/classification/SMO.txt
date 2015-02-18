@@ -1,0 +1,1205 @@
+=== Run information ===
+
+Scheme:weka.classifiers.functions.SMO -C 1.0 -L 0.001 -P 1.0E-12 -N 0 -V -1 -W 1 -K "weka.classifiers.functions.supportVector.PolyKernel -C 250007 -E 1.0"
+Relation:     multicriteria-weka.filters.unsupervised.attribute.NumericToNominal-Rfirst-last
+Instances:    223
+Attributes:   13
+              user
+              project
+              criterium1
+              criterium2
+              criterium3
+              criterium4
+              criterium5
+              criterium6
+              criterium7
+              criterium8
+              criterium9
+              criterium10
+              overall
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+SMO
+
+Kernel used:
+  Linear Kernel: K(x,y) = <x,y>
+
+Classifier for classes: 0, 1
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.1116 * (normalized) user=9
+ +      -0.1116 * (normalized) user=14
+ +       0.1116 * (normalized) project=32
+ +      -0.0652 * (normalized) project=3855
+ +      -0.0465 * (normalized) project=3926
+ +       0.0465 * (normalized) criterium1=0
+ +      -0.0465 * (normalized) criterium1=4
+ +       0.1116 * (normalized) criterium2=0
+ +      -0.0652 * (normalized) criterium2=3
+ +      -0.0465 * (normalized) criterium2=5
+ +       0.1116 * (normalized) criterium3=0
+ +      -0.0465 * (normalized) criterium3=4
+ +      -0.0652 * (normalized) criterium3=5
+ +       0.1116 * (normalized) criterium4=0
+ +      -0.0652 * (normalized) criterium4=4
+ +      -0.0465 * (normalized) criterium4=5
+ +       0.1116 * (normalized) criterium5=0
+ +      -0.1116 * (normalized) criterium5=5
+ +       0.1116 * (normalized) criterium7=0
+ +      -0.1116 * (normalized) criterium7=5
+ +       0.1116 * (normalized) criterium8=0
+ +      -0.0465 * (normalized) criterium8=4
+ +      -0.0652 * (normalized) criterium8=5
+ +       0.1116 * (normalized) criterium9=0
+ +      -0.1116 * (normalized) criterium9=4
+ +       0.1116 * (normalized) criterium10=0
+ +      -0.1116 * (normalized) criterium10=5
+ -       0.1629
+
+Number of kernel evaluations: 6 (86.047% cached)
+
+Classifier for classes: 0, 2
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.1167 * (normalized) user=9
+ +      -0.1693 * (normalized) user=14
+ +       0.0526 * (normalized) user=70
+ +       0.0825 * (normalized) project=172
+ +       0.0526 * (normalized) project=229
+ +      -0.0847 * (normalized) project=3855
+ +      -0.0846 * (normalized) project=3926
+ +       0.0342 * (normalized) project=4456
+ +      -0.0847 * (normalized) criterium1=0
+ +       0.0342 * (normalized) criterium1=1
+ +       0.0526 * (normalized) criterium1=2
+ +      -0.002  * (normalized) criterium1=4
+ +       0.0526 * (normalized) criterium2=0
+ +       0.0342 * (normalized) criterium2=2
+ +      -0.0022 * (normalized) criterium2=3
+ +      -0.0846 * (normalized) criterium2=5
+ +       0.0526 * (normalized) criterium3=0
+ +       0.1167 * (normalized) criterium3=3
+ +      -0.0846 * (normalized) criterium3=4
+ +      -0.0847 * (normalized) criterium3=5
+ +       0.1167 * (normalized) criterium4=2
+ +       0.0526 * (normalized) criterium4=3
+ +      -0.0847 * (normalized) criterium4=4
+ +      -0.0846 * (normalized) criterium4=5
+ +       0.1351 * (normalized) criterium5=0
+ +       0.0342 * (normalized) criterium5=1
+ +      -0.1693 * (normalized) criterium5=5
+ +       0.0867 * (normalized) criterium7=2
+ +       0.0825 * (normalized) criterium7=3
+ +      -0.1693 * (normalized) criterium7=5
+ +       0.1693 * (normalized) criterium8=0
+ +      -0.0846 * (normalized) criterium8=4
+ +      -0.0847 * (normalized) criterium8=5
+ +       0.0526 * (normalized) criterium9=0
+ +       0.0342 * (normalized) criterium9=1
+ +      -0.0867 * (normalized) criterium9=4
+ +       0.0526 * (normalized) criterium10=0
+ +       0.0342 * (normalized) criterium10=2
+ +       0.0825 * (normalized) criterium10=3
+ +      -0.1693 * (normalized) criterium10=5
+ +       0.189 
+
+Number of kernel evaluations: 15 (86.607% cached)
+
+Classifier for classes: 0, 3
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.0074 * (normalized) user=9
+ +      -0.2884 * (normalized) user=14
+ +       0      * (normalized) user=16
+ +       0.0763 * (normalized) user=66
+ +       0.09   * (normalized) user=67
+ +       0.0405 * (normalized) user=72
+ +       0.0742 * (normalized) user=82
+ +       0      * (normalized) project=9
+ +       0.03   * (normalized) project=151
+ +       0.0537 * (normalized) project=229
+ +       0.0074 * (normalized) project=627
+ +      -0.0736 * (normalized) project=3855
+ +      -0.1343 * (normalized) project=3926
+ +       0.0763 * (normalized) project=3975
+ +       0.0405 * (normalized) project=89885
+ +      -0.0591 * (normalized) criterium1=0
+ +       0.0187 * (normalized) criterium1=1
+ +       0.0742 * (normalized) criterium1=3
+ +      -0.0338 * (normalized) criterium1=4
+ +       0.0537 * (normalized) criterium2=0
+ +       0.0742 * (normalized) criterium2=1
+ +       0.0763 * (normalized) criterium2=2
+ +      -0.1404 * (normalized) criterium2=3
+ +       0.0405 * (normalized) criterium2=4
+ +      -0.1043 * (normalized) criterium2=5
+ +       0.1279 * (normalized) criterium3=3
+ +      -0.0693 * (normalized) criterium3=4
+ +      -0.0586 * (normalized) criterium3=5
+ +       0.0074 * (normalized) criterium4=0
+ +       0.0412 * (normalized) criterium4=2
+ +       0.0187 * (normalized) criterium4=3
+ +      -0.0206 * (normalized) criterium4=4
+ +      -0.0467 * (normalized) criterium4=5
+ +       0.2273 * (normalized) criterium5=0
+ +       0.0405 * (normalized) criterium5=3
+ +       0.0742 * (normalized) criterium5=4
+ +      -0.342  * (normalized) criterium5=5
+ +      -0.0742 * (normalized) criterium6=0
+ +       0.0742 * (normalized) criterium6=4
+ +       0.03   * (normalized) criterium7=1
+ +       0.0817 * (normalized) criterium7=3
+ +       0.0816 * (normalized) criterium7=4
+ +      -0.1934 * (normalized) criterium7=5
+ +       0.2678 * (normalized) criterium8=0
+ +       0.0742 * (normalized) criterium8=3
+ +      -0.153  * (normalized) criterium8=4
+ +      -0.189  * (normalized) criterium8=5
+ +       0.09   * (normalized) criterium9=0
+ +       0.0537 * (normalized) criterium9=3
+ +      -0.1437 * (normalized) criterium9=4
+ +       0.0405 * (normalized) criterium10=2
+ +       0.0837 * (normalized) criterium10=3
+ +       0.0724 * (normalized) criterium10=4
+ +      -0.1966 * (normalized) criterium10=5
+ +       0.7792
+
+Number of kernel evaluations: 211 (82.887% cached)
+
+Classifier for classes: 0, 4
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.1207 * (normalized) user=9
+ +       0.0322 * (normalized) user=11
+ +      -0.8858 * (normalized) user=14
+ +       0.006  * (normalized) user=36
+ +       0.0402 * (normalized) user=63
+ +       0.0089 * (normalized) user=69
+ +       0.1219 * (normalized) user=71
+ +       0.0214 * (normalized) user=73
+ +       0.2335 * (normalized) user=74
+ +       0.037  * (normalized) user=77
+ +       0.0054 * (normalized) user=81
+ +       0.1023 * (normalized) user=83
+ +       0      * (normalized) user=86
+ +       0.1255 * (normalized) user=89
+ +       0.0309 * (normalized) user=93
+ +       0.1219 * (normalized) project=43
+ +       0.0073 * (normalized) project=55
+ +       0.006  * (normalized) project=151
+ +       0.0402 * (normalized) project=3192
+ +       0.0214 * (normalized) project=3517
+ +       0      * (normalized) project=3546
+ +      -0.0607 * (normalized) project=3855
+ +      -0.4577 * (normalized) project=3926
+ +       0.0335 * (normalized) project=3969
+ +       0.0841 * (normalized) project=4014
+ +       0.072  * (normalized) project=4139
+ +       0.0297 * (normalized) project=6303
+ +       0.1023 * (normalized) project=26825
+ +      -0.1535 * (normalized) criterium1=0
+ +       0.0719 * (normalized) criterium1=3
+ +      -0.0012 * (normalized) criterium1=4
+ +       0.0828 * (normalized) criterium1=5
+ +       0.0054 * (normalized) criterium2=0
+ +      -0.1218 * (normalized) criterium2=3
+ +       0.14   * (normalized) criterium2=4
+ +      -0.0235 * (normalized) criterium2=5
+ +       0.0447 * (normalized) criterium3=4
+ +      -0.0447 * (normalized) criterium3=5
+ +       0.0616 * (normalized) criterium4=4
+ +      -0.0616 * (normalized) criterium4=5
+ +       0.2671 * (normalized) criterium5=0
+ +       0.0309 * (normalized) criterium5=3
+ +       0.0464 * (normalized) criterium5=4
+ +      -0.3443 * (normalized) criterium5=5
+ +      -0.3368 * (normalized) criterium6=0
+ +       0.0322 * (normalized) criterium6=1
+ +       0.0496 * (normalized) criterium6=4
+ +       0.255  * (normalized) criterium6=5
+ +       0      * (normalized) criterium7=5
+ +       0.3181 * (normalized) criterium8=0
+ +       0      * (normalized) criterium8=2
+ +       0.063  * (normalized) criterium8=3
+ +      -0.1012 * (normalized) criterium8=4
+ +      -0.28   * (normalized) criterium8=5
+ +       0.0638 * (normalized) criterium9=3
+ +      -0.1064 * (normalized) criterium9=4
+ +       0.0426 * (normalized) criterium9=5
+ +       0      * (normalized) criterium10=0
+ +       0      * (normalized) criterium10=3
+ +       0.0872 * (normalized) criterium10=4
+ +      -0.0872 * (normalized) criterium10=5
+ +       1.3601
+
+Number of kernel evaluations: 1574 (80.379% cached)
+
+Classifier for classes: 0, 5
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.0424 * (normalized) user=9
+ +       0.0408 * (normalized) user=11
+ +      -0.7223 * (normalized) user=14
+ +       0.0189 * (normalized) user=15
+ +       0.0682 * (normalized) user=16
+ +       0.1858 * (normalized) user=24
+ +       0.0103 * (normalized) user=65
+ +       0.0117 * (normalized) user=72
+ +       0      * (normalized) user=73
+ +       0.0022 * (normalized) user=77
+ +       0.1833 * (normalized) user=83
+ +       0.0376 * (normalized) user=84
+ +       0.0454 * (normalized) user=86
+ +       0.0756 * (normalized) user=89
+ +       0.0117 * (normalized) project=9
+ +       0      * (normalized) project=43
+ +       0.0424 * (normalized) project=151
+ +       0      * (normalized) project=278
+ +       0.137  * (normalized) project=3141
+ +       0.1097 * (normalized) project=3517
+ +       0.0189 * (normalized) project=3546
+ +       0.0022 * (normalized) project=3562
+ +       0.0088 * (normalized) project=3745
+ +      -0.1984 * (normalized) project=3855
+ +      -0.287  * (normalized) project=3926
+ +       0.0036 * (normalized) project=4696
+ +       0.0463 * (normalized) project=14549
+ +       0.0595 * (normalized) project=16813
+ +       0.0454 * (normalized) project=24234
+ +      -0.2087 * (normalized) criterium1=0
+ +       0.0643 * (normalized) criterium1=3
+ +       0.0385 * (normalized) criterium1=4
+ +       0.1059 * (normalized) criterium1=5
+ +       0.0454 * (normalized) criterium2=0
+ +       0.0376 * (normalized) criterium2=2
+ +      -0.1492 * (normalized) criterium2=3
+ +       0.072  * (normalized) criterium2=4
+ +      -0.0058 * (normalized) criterium2=5
+ +      -0.2036 * (normalized) criterium3=4
+ +       0.2036 * (normalized) criterium3=5
+ +      -0.0774 * (normalized) criterium4=4
+ +       0.0774 * (normalized) criterium4=5
+ +       0.0878 * (normalized) criterium5=0
+ +       0.0103 * (normalized) criterium5=3
+ +       0.0648 * (normalized) criterium5=4
+ +      -0.1629 * (normalized) criterium5=5
+ +      -0.4395 * (normalized) criterium6=0
+ +       0.0189 * (normalized) criterium6=1
+ +       0.0408 * (normalized) criterium6=2
+ +       0.1351 * (normalized) criterium6=4
+ +       0.2448 * (normalized) criterium6=5
+ +       0.0756 * (normalized) criterium7=4
+ +      -0.0756 * (normalized) criterium7=5
+ +       0.2248 * (normalized) criterium8=0
+ +       0.0712 * (normalized) criterium8=2
+ +       0.0408 * (normalized) criterium8=3
+ +      -0.1924 * (normalized) criterium8=4
+ +      -0.1443 * (normalized) criterium8=5
+ +       0.0408 * (normalized) criterium9=0
+ +       0.0189 * (normalized) criterium9=3
+ +      -0.1484 * (normalized) criterium9=4
+ +       0.0887 * (normalized) criterium9=5
+ +       0.0454 * (normalized) criterium10=0
+ +       0.0595 * (normalized) criterium10=3
+ +       0.0036 * (normalized) criterium10=4
+ +      -0.1084 * (normalized) criterium10=5
+ +       1.2309
+
+Number of kernel evaluations: 1354 (83.411% cached)
+
+Classifier for classes: 1, 2
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.1583 * (normalized) user=9
+ +       0.1583 * (normalized) user=70
+ +      -0.2551 * (normalized) project=32
+ +       0.0666 * (normalized) project=172
+ +       0.1583 * (normalized) project=229
+ +       0.0302 * (normalized) project=4456
+ +      -0.2551 * (normalized) criterium1=0
+ +       0.0302 * (normalized) criterium1=1
+ +       0.1583 * (normalized) criterium1=2
+ +       0.0666 * (normalized) criterium1=4
+ +      -0.0968 * (normalized) criterium2=0
+ +       0.0302 * (normalized) criterium2=2
+ +       0.0666 * (normalized) criterium2=3
+ +      -0.0968 * (normalized) criterium3=0
+ +       0.0968 * (normalized) criterium3=3
+ +      -0.2551 * (normalized) criterium4=0
+ +       0.0968 * (normalized) criterium4=2
+ +       0.1583 * (normalized) criterium4=3
+ +      -0.0302 * (normalized) criterium5=0
+ +       0.0302 * (normalized) criterium5=1
+ +       0      * (normalized) criterium6=0
+ +      -0.2551 * (normalized) criterium7=0
+ +       0.1885 * (normalized) criterium7=2
+ +       0.0666 * (normalized) criterium7=3
+ +       0      * (normalized) criterium8=0
+ +      -0.0968 * (normalized) criterium9=0
+ +       0.0302 * (normalized) criterium9=1
+ +       0.0666 * (normalized) criterium9=4
+ +      -0.0968 * (normalized) criterium10=0
+ +       0.0302 * (normalized) criterium10=2
+ +       0.0666 * (normalized) criterium10=3
+ +       0.5954
+
+Number of kernel evaluations: 10 (88.235% cached)
+
+Classifier for classes: 1, 3
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.1939 * (normalized) user=9
+ +       0.0637 * (normalized) user=14
+ +       0.0017 * (normalized) user=66
+ +       0.0438 * (normalized) user=67
+ +       0.0165 * (normalized) user=70
+ +       0.0683 * (normalized) user=86
+ +       0.0272 * (normalized) project=9
+ +      -0.2501 * (normalized) project=32
+ +       0.0255 * (normalized) project=151
+ +       0.0637 * (normalized) project=229
+ +       0.0562 * (normalized) project=627
+ +       0.0411 * (normalized) project=3546
+ +       0.0165 * (normalized) project=3644
+ +       0.013  * (normalized) project=3855
+ +       0.0052 * (normalized) project=3926
+ +       0.0017 * (normalized) project=3975
+ +      -0.1847 * (normalized) criterium1=0
+ +       0.0463 * (normalized) criterium1=1
+ +       0.0165 * (normalized) criterium1=3
+ +       0.0947 * (normalized) criterium1=4
+ +       0.0272 * (normalized) criterium1=5
+ +      -0.1288 * (normalized) criterium2=0
+ +       0.0017 * (normalized) criterium2=2
+ +       0.0692 * (normalized) criterium2=3
+ +       0.0272 * (normalized) criterium2=4
+ +       0.0307 * (normalized) criterium2=5
+ +      -0.2501 * (normalized) criterium3=0
+ +       0.0637 * (normalized) criterium3=3
+ +       0.1154 * (normalized) criterium3=4
+ +       0.0709 * (normalized) criterium3=5
+ +      -0.1939 * (normalized) criterium4=0
+ +       0.013  * (normalized) criterium4=2
+ +       0.0463 * (normalized) criterium4=3
+ +       0.0802 * (normalized) criterium4=4
+ +       0.0544 * (normalized) criterium4=5
+ +      -0.0165 * (normalized) criterium5=0
+ +       0.0165 * (normalized) criterium5=3
+ +       0      * (normalized) criterium6=0
+ +      -0.2501 * (normalized) criterium7=0
+ +       0.0255 * (normalized) criterium7=1
+ +       0.0402 * (normalized) criterium7=3
+ +       0.1137 * (normalized) criterium7=4
+ +       0.0707 * (normalized) criterium7=5
+ +       0      * (normalized) criterium8=0
+ +      -0.2063 * (normalized) criterium9=0
+ +       0.0411 * (normalized) criterium9=1
+ +       0.0802 * (normalized) criterium9=3
+ +       0.0579 * (normalized) criterium9=4
+ +       0.0272 * (normalized) criterium9=5
+ +      -0.1654 * (normalized) criterium10=0
+ +       0      * (normalized) criterium10=2
+ +       0.0579 * (normalized) criterium10=3
+ +       0.069  * (normalized) criterium10=4
+ +       0.0385 * (normalized) criterium10=5
+ +       0.8392
+
+Number of kernel evaluations: 175 (81.79% cached)
+
+Classifier for classes: 1, 4
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.5113 * (normalized) user=9
+ +       0.0444 * (normalized) user=61
+ +       0      * (normalized) user=67
+ +       0.4603 * (normalized) user=70
+ +       0.0057 * (normalized) user=73
+ +       0      * (normalized) user=74
+ +       0.0009 * (normalized) user=86
+ +       0      * (normalized) user=89
+ +      -0.5682 * (normalized) project=32
+ +       0.0074 * (normalized) project=43
+ +       0.0506 * (normalized) project=114
+ +       0.0293 * (normalized) project=386
+ +       0.4603 * (normalized) project=3547
+ +       0.0052 * (normalized) project=3675
+ +       0.0009 * (normalized) project=3855
+ +       0.0072 * (normalized) project=4032
+ +       0.0073 * (normalized) project=26825
+ +      -0.063  * (normalized) criterium1=0
+ +       0.0265 * (normalized) criterium1=4
+ +       0.0365 * (normalized) criterium1=5
+ +      -0.1571 * (normalized) criterium2=0
+ +       0.0444 * (normalized) criterium2=3
+ +       0.0547 * (normalized) criterium2=4
+ +       0.0579 * (normalized) criterium2=5
+ +      -0.158  * (normalized) criterium3=0
+ +       0.0634 * (normalized) criterium3=4
+ +       0.0946 * (normalized) criterium3=5
+ +      -0.158  * (normalized) criterium4=0
+ +       0.0518 * (normalized) criterium4=3
+ +       0.0474 * (normalized) criterium4=4
+ +       0.0588 * (normalized) criterium4=5
+ +      -0.0276 * (normalized) criterium5=0
+ +       0.022  * (normalized) criterium5=3
+ +       0      * (normalized) criterium5=4
+ +       0.0057 * (normalized) criterium5=5
+ +      -0.0444 * (normalized) criterium6=0
+ +       0.0444 * (normalized) criterium6=3
+ +       0      * (normalized) criterium6=4
+ +       0      * (normalized) criterium6=5
+ +      -0.158  * (normalized) criterium7=0
+ +       0.0522 * (normalized) criterium7=4
+ +       0.1059 * (normalized) criterium7=5
+ +      -0.0072 * (normalized) criterium8=0
+ +       0.0072 * (normalized) criterium8=2
+ +       0      * (normalized) criterium8=3
+ +      -0.158  * (normalized) criterium9=0
+ +       0      * (normalized) criterium9=2
+ +       0.0794 * (normalized) criterium9=3
+ +       0.0229 * (normalized) criterium9=4
+ +       0.0558 * (normalized) criterium9=5
+ +      -0.1571 * (normalized) criterium10=0
+ +       0.0293 * (normalized) criterium10=3
+ +       0.0643 * (normalized) criterium10=4
+ +       0.0635 * (normalized) criterium10=5
+ +       1.1673
+
+Number of kernel evaluations: 1091 (74.798% cached)
+
+Classifier for classes: 1, 5
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.4844 * (normalized) user=9
+ +       0.4649 * (normalized) user=70
+ +       0      * (normalized) user=83
+ +       0      * (normalized) user=85
+ +       0.0195 * (normalized) user=86
+ +       0      * (normalized) user=89
+ +      -0.5867 * (normalized) project=32
+ +       0.4649 * (normalized) project=151
+ +       0.039  * (normalized) project=278
+ +       0      * (normalized) project=3517
+ +       0      * (normalized) project=3855
+ +       0.0071 * (normalized) project=8267
+ +       0.0227 * (normalized) project=13307
+ +       0.0469 * (normalized) project=15984
+ +       0.0061 * (normalized) project=24234
+ +      -0.1218 * (normalized) criterium1=0
+ +       0.0061 * (normalized) criterium1=3
+ +       0.046  * (normalized) criterium1=4
+ +       0.0696 * (normalized) criterium1=5
+ +      -0.1023 * (normalized) criterium2=0
+ +       0      * (normalized) criterium2=3
+ +       0.1023 * (normalized) criterium2=5
+ +      -0.1218 * (normalized) criterium3=0
+ +       0.0531 * (normalized) criterium3=4
+ +       0.0688 * (normalized) criterium3=5
+ +      -0.1218 * (normalized) criterium4=0
+ +       0.0256 * (normalized) criterium4=3
+ +       0.0133 * (normalized) criterium4=4
+ +       0.0829 * (normalized) criterium4=5
+ +      -0.0327 * (normalized) criterium5=0
+ +       0      * (normalized) criterium5=3
+ +       0.0256 * (normalized) criterium5=4
+ +       0.0071 * (normalized) criterium5=5
+ +      -0.0256 * (normalized) criterium6=0
+ +       0.0256 * (normalized) criterium6=3
+ +       0      * (normalized) criterium6=4
+ +       0      * (normalized) criterium6=5
+ +      -0.1218 * (normalized) criterium7=0
+ +       0      * (normalized) criterium7=4
+ +       0.1218 * (normalized) criterium7=5
+ +       0      * (normalized) criterium8=0
+ +       0      * (normalized) criterium8=3
+ +       0      * (normalized) criterium8=4
+ +       0      * (normalized) criterium8=5
+ +      -0.1218 * (normalized) criterium9=0
+ +       0.0133 * (normalized) criterium9=3
+ +       0.0318 * (normalized) criterium9=4
+ +       0.0767 * (normalized) criterium9=5
+ +      -0.1023 * (normalized) criterium10=0
+ +       0.0469 * (normalized) criterium10=4
+ +       0.0554 * (normalized) criterium10=5
+ +       0.9421
+
+Number of kernel evaluations: 879 (69.049% cached)
+
+Classifier for classes: 2, 3
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.3607 * (normalized) user=9
+ +       0.09   * (normalized) user=14
+ +       0.037  * (normalized) user=15
+ +       0.0359 * (normalized) user=16
+ +       0.1243 * (normalized) user=66
+ +       0.1841 * (normalized) user=67
+ +      -0.1912 * (normalized) user=70
+ +       0.0807 * (normalized) user=86
+ +       0.1243 * (normalized) project=9
+ +      -0.4066 * (normalized) project=172
+ +      -0.1685 * (normalized) project=229
+ +       0.0672 * (normalized) project=308
+ +       0.0359 * (normalized) project=313
+ +       0.1569 * (normalized) project=627
+ +       0.0807 * (normalized) project=3546
+ +       0.1841 * (normalized) project=3855
+ +      -0.1381 * (normalized) project=4456
+ +       0.037  * (normalized) project=7918
+ +       0.0271 * (normalized) project=13314
+ +       0.09   * (normalized) criterium1=0
+ +      -0.0575 * (normalized) criterium1=1
+ +      -0.2584 * (normalized) criterium1=2
+ +       0.1313 * (normalized) criterium1=3
+ +       0.0946 * (normalized) criterium1=4
+ +      -0.0878 * (normalized) criterium2=0
+ +       0.022  * (normalized) criterium2=2
+ +       0.0017 * (normalized) criterium2=3
+ +       0.0641 * (normalized) criterium2=4
+ +      -0.2584 * (normalized) criterium3=0
+ +      -0.2577 * (normalized) criterium3=3
+ +       0.3319 * (normalized) criterium3=4
+ +       0.1841 * (normalized) criterium3=5
+ +       0.1569 * (normalized) criterium4=0
+ +      -0.3236 * (normalized) criterium4=2
+ +      -0.1105 * (normalized) criterium4=3
+ +       0.1529 * (normalized) criterium4=4
+ +       0.1243 * (normalized) criterium4=5
+ +      -0.0291 * (normalized) criterium5=0
+ +      -0.1381 * (normalized) criterium5=1
+ +       0.0729 * (normalized) criterium5=2
+ +       0.0672 * (normalized) criterium5=3
+ +       0.0271 * (normalized) criterium5=4
+ +      -0.0729 * (normalized) criterium6=0
+ +       0.037  * (normalized) criterium6=1
+ +       0      * (normalized) criterium6=3
+ +       0.0359 * (normalized) criterium6=4
+ +      -0.3965 * (normalized) criterium7=2
+ +      -0.0922 * (normalized) criterium7=3
+ +       0.2746 * (normalized) criterium7=4
+ +       0.2142 * (normalized) criterium7=5
+ +      -0.0729 * (normalized) criterium8=0
+ +       0.0359 * (normalized) criterium8=2
+ +       0      * (normalized) criterium8=3
+ +       0.037  * (normalized) criterium8=4
+ +      -0.0743 * (normalized) criterium9=0
+ +      -0.0575 * (normalized) criterium9=1
+ +       0.037  * (normalized) criterium9=2
+ +       0.2202 * (normalized) criterium9=3
+ +      -0.1254 * (normalized) criterium9=4
+ +      -0.1105 * (normalized) criterium10=0
+ +       0.0231 * (normalized) criterium10=2
+ +      -0.1867 * (normalized) criterium10=3
+ +       0.09   * (normalized) criterium10=4
+ +       0.1841 * (normalized) criterium10=5
+ +       0.8312
+
+Number of kernel evaluations: 239 (85.663% cached)
+
+Classifier for classes: 2, 4
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.1622 * (normalized) user=9
+ +       0.0084 * (normalized) user=16
+ +       0.0121 * (normalized) user=35
+ +       0      * (normalized) user=36
+ +       0.002  * (normalized) user=61
+ +       0.0522 * (normalized) user=66
+ +       0.0462 * (normalized) user=67
+ +      -0.1162 * (normalized) user=70
+ +       0      * (normalized) user=75
+ +       0.0431 * (normalized) user=77
+ +       0      * (normalized) user=83
+ +       0.0713 * (normalized) user=86
+ +       0.0431 * (normalized) user=87
+ +       0      * (normalized) user=89
+ +       0.002  * (normalized) project=32
+ +       0.0367 * (normalized) project=43
+ +       0.0431 * (normalized) project=151
+ +      -0.2587 * (normalized) project=172
+ +      -0.3275 * (normalized) project=229
+ +       0.0431 * (normalized) project=557
+ +       0.0984 * (normalized) project=3489
+ +       0      * (normalized) project=3517
+ +       0.0121 * (normalized) project=3546
+ +       0.2114 * (normalized) project=3547
+ +       0.0084 * (normalized) project=3562
+ +       0      * (normalized) project=3670
+ +       0.0804 * (normalized) project=3855
+ +      -0.0832 * (normalized) project=4456
+ +       0.0971 * (normalized) project=4696
+ +       0.0369 * (normalized) project=7915
+ +       0.2134 * (normalized) criterium1=0
+ +      -0.0832 * (normalized) criterium1=1
+ +      -0.2305 * (normalized) criterium1=2
+ +       0.0205 * (normalized) criterium1=3
+ +      -0.0555 * (normalized) criterium1=4
+ +       0.1353 * (normalized) criterium1=5
+ +      -0.0018 * (normalized) criterium2=0
+ +      -0.0832 * (normalized) criterium2=2
+ +      -0.1903 * (normalized) criterium2=3
+ +       0.132  * (normalized) criterium2=4
+ +       0.1433 * (normalized) criterium2=5
+ +      -0.1162 * (normalized) criterium3=0
+ +      -0.2988 * (normalized) criterium3=3
+ +       0.18   * (normalized) criterium3=4
+ +       0.235  * (normalized) criterium3=5
+ +       0.2114 * (normalized) criterium4=0
+ +       0.0121 * (normalized) criterium4=1
+ +      -0.2897 * (normalized) criterium4=2
+ +      -0.1834 * (normalized) criterium4=3
+ +       0.0891 * (normalized) criterium4=4
+ +       0.1606 * (normalized) criterium4=5
+ +      -0.1602 * (normalized) criterium5=0
+ +      -0.0832 * (normalized) criterium5=1
+ +       0.0121 * (normalized) criterium5=2
+ +       0.1338 * (normalized) criterium5=3
+ +       0.0544 * (normalized) criterium5=4
+ +       0.0431 * (normalized) criterium5=5
+ +      -0.0535 * (normalized) criterium6=0
+ +       0      * (normalized) criterium6=1
+ +       0.002  * (normalized) criterium6=3
+ +       0.0084 * (normalized) criterium6=4
+ +       0.0431 * (normalized) criterium6=5
+ +       0.2114 * (normalized) criterium7=0
+ +       0.0121 * (normalized) criterium7=1
+ +      -0.4107 * (normalized) criterium7=2
+ +      -0.1757 * (normalized) criterium7=3
+ +       0.1573 * (normalized) criterium7=4
+ +       0.2056 * (normalized) criterium7=5
+ +      -0.0431 * (normalized) criterium8=0
+ +       0      * (normalized) criterium8=2
+ +       0      * (normalized) criterium8=3
+ +       0.0431 * (normalized) criterium8=4
+ +       0      * (normalized) criterium8=5
+ +      -0.0699 * (normalized) criterium9=0
+ +      -0.0832 * (normalized) criterium9=1
+ +       0.1196 * (normalized) criterium9=3
+ +      -0.0493 * (normalized) criterium9=4
+ +       0.0828 * (normalized) criterium9=5
+ +      -0.0449 * (normalized) criterium10=0
+ +      -0.0832 * (normalized) criterium10=2
+ +      -0.0201 * (normalized) criterium10=3
+ +       0.0939 * (normalized) criterium10=4
+ +       0.0544 * (normalized) criterium10=5
+ +       0.7578
+
+Number of kernel evaluations: 2465 (72.141% cached)
+
+Classifier for classes: 2, 5
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.1982 * (normalized) user=9
+ +       0.0291 * (normalized) user=16
+ +       0.0345 * (normalized) user=33
+ +       0.1336 * (normalized) user=66
+ +      -0.0832 * (normalized) user=70
+ +       0      * (normalized) user=73
+ +       0      * (normalized) user=83
+ +       0.0567 * (normalized) user=86
+ +       0.0275 * (normalized) user=89
+ +       0      * (normalized) project=9
+ +       0.2344 * (normalized) project=151
+ +       0.082  * (normalized) project=165
+ +      -0.1999 * (normalized) project=172
+ +      -0.3177 * (normalized) project=229
+ +       0.0557 * (normalized) project=278
+ +       0.0345 * (normalized) project=3265
+ +       0.0143 * (normalized) project=3517
+ +       0.0515 * (normalized) project=3855
+ +      -0.0554 * (normalized) project=4456
+ +       0.0132 * (normalized) project=4696
+ +       0.009  * (normalized) project=15984
+ +       0.0291 * (normalized) project=16813
+ +       0.0491 * (normalized) project=24234
+ +       0.2344 * (normalized) criterium1=0
+ +      -0.0554 * (normalized) criterium1=1
+ +      -0.2356 * (normalized) criterium1=2
+ +       0.1006 * (normalized) criterium1=3
+ +      -0.0877 * (normalized) criterium1=4
+ +       0.0436 * (normalized) criterium1=5
+ +      -0.0265 * (normalized) criterium2=0
+ +      -0.0554 * (normalized) criterium2=2
+ +      -0.1193 * (normalized) criterium2=3
+ +       0.0143 * (normalized) criterium2=4
+ +       0.1869 * (normalized) criterium2=5
+ +      -0.0832 * (normalized) criterium3=0
+ +      -0.2553 * (normalized) criterium3=3
+ +       0.1148 * (normalized) criterium3=4
+ +       0.2238 * (normalized) criterium3=5
+ +       0.2344 * (normalized) criterium4=0
+ +      -0.2553 * (normalized) criterium4=2
+ +      -0.136  * (normalized) criterium4=3
+ +       0.0208 * (normalized) criterium4=4
+ +       0.1361 * (normalized) criterium4=5
+ +      -0.0493 * (normalized) criterium5=0
+ +      -0.0554 * (normalized) criterium5=1
+ +       0.0613 * (normalized) criterium5=4
+ +       0.0434 * (normalized) criterium5=5
+ +      -0.1047 * (normalized) criterium6=0
+ +       0.0481 * (normalized) criterium6=3
+ +       0.0566 * (normalized) criterium6=4
+ +       0      * (normalized) criterium6=5
+ +       0.2344 * (normalized) criterium7=0
+ +      -0.373  * (normalized) criterium7=2
+ +      -0.1654 * (normalized) criterium7=3
+ +       0.0275 * (normalized) criterium7=4
+ +       0.2765 * (normalized) criterium7=5
+ +      -0.0566 * (normalized) criterium8=0
+ +       0.0291 * (normalized) criterium8=2
+ +       0      * (normalized) criterium8=3
+ +       0.0275 * (normalized) criterium8=4
+ +       0      * (normalized) criterium8=5
+ +      -0.0832 * (normalized) criterium9=0
+ +      -0.0554 * (normalized) criterium9=1
+ +       0.1411 * (normalized) criterium9=3
+ +      -0.0461 * (normalized) criterium9=4
+ +       0.0436 * (normalized) criterium9=5
+ +      -0.0265 * (normalized) criterium10=0
+ +      -0.0554 * (normalized) criterium10=2
+ +      -0.0372 * (normalized) criterium10=3
+ +       0.0222 * (normalized) criterium10=4
+ +       0.0969 * (normalized) criterium10=5
+ +       0.5759
+
+Number of kernel evaluations: 1152 (77.884% cached)
+
+Classifier for classes: 3, 4
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.0154 * (normalized) user=9
+ +      -0.195  * (normalized) user=14
+ +      -0.0699 * (normalized) user=15
+ +       0.0922 * (normalized) user=16
+ +       0      * (normalized) user=21
+ +       0      * (normalized) user=25
+ +       0.5666 * (normalized) user=35
+ +       0.0257 * (normalized) user=48
+ +       0.0484 * (normalized) user=59
+ +       0.2581 * (normalized) user=61
+ +       0.0481 * (normalized) user=65
+ +      -0.5959 * (normalized) user=66
+ +      -0.5366 * (normalized) user=67
+ +      -0.2528 * (normalized) user=70
+ +       0.1144 * (normalized) user=72
+ +       0.1432 * (normalized) user=73
+ +       0.5169 * (normalized) user=74
+ +       0.0578 * (normalized) user=75
+ +       0.2393 * (normalized) user=77
+ +      -0.2572 * (normalized) user=82
+ +       0      * (normalized) user=83
+ +      -0.0886 * (normalized) user=86
+ +      -0.0991 * (normalized) user=87
+ +       0      * (normalized) user=89
+ +      -0.0738 * (normalized) project=1
+ +      -0.5217 * (normalized) project=9
+ +      -0.2935 * (normalized) project=29
+ +       0.2581 * (normalized) project=32
+ +       0.1681 * (normalized) project=43
+ +      -0.0308 * (normalized) project=151
+ +      -0.6528 * (normalized) project=229
+ +       0.2616 * (normalized) project=386
+ +       0.2393 * (normalized) project=557
+ +       0.1906 * (normalized) project=579
+ +      -0.532  * (normalized) project=627
+ +       0.1432 * (normalized) project=3192
+ +       0.7961 * (normalized) project=3489
+ +       0.2615 * (normalized) project=3499
+ +       0.1431 * (normalized) project=3517
+ +       0.2494 * (normalized) project=3546
+ +       0.3742 * (normalized) project=3547
+ +       0.0464 * (normalized) project=3562
+ +      -0.0047 * (normalized) project=3607
+ +      -0.8176 * (normalized) project=3644
+ +      -0.053  * (normalized) project=3855
+ +      -0.7245 * (normalized) project=3926
+ +       0.4578 * (normalized) project=3969
+ +      -0.3085 * (normalized) project=3975
+ +       0.5912 * (normalized) project=4696
+ +       0.1562 * (normalized) project=6303
+ +       0.4773 * (normalized) project=7915
+ +      -0.0699 * (normalized) project=7918
+ +       0.0484 * (normalized) project=12740
+ +      -0.5262 * (normalized) project=13314
+ +       0.1169 * (normalized) project=26825
+ +      -0.3703 * (normalized) project=89885
+ +       0.161  * (normalized) criterium1=0
+ +      -1.0418 * (normalized) criterium1=1
+ +      -0.2411 * (normalized) criterium1=2
+ +      -0.1002 * (normalized) criterium1=3
+ +       0.098  * (normalized) criterium1=4
+ +       1.1241 * (normalized) criterium1=5
+ +       0.7972 * (normalized) criterium2=0
+ +      -0.2572 * (normalized) criterium2=1
+ +      -0.6501 * (normalized) criterium2=2
+ +      -0.392  * (normalized) criterium2=3
+ +       0.1896 * (normalized) criterium2=4
+ +       0.3126 * (normalized) criterium2=5
+ +       0.3742 * (normalized) criterium3=0
+ +      -1.1126 * (normalized) criterium3=3
+ +       0.3835 * (normalized) criterium3=4
+ +       0.3549 * (normalized) criterium3=5
+ +      -0.1578 * (normalized) criterium4=0
+ +       0.5666 * (normalized) criterium4=1
+ +      -0.0699 * (normalized) criterium4=2
+ +      -0.0518 * (normalized) criterium4=3
+ +      -0.1224 * (normalized) criterium4=4
+ +      -0.1647 * (normalized) criterium4=5
+ +      -0.4802 * (normalized) criterium5=0
+ +       0.2032 * (normalized) criterium5=2
+ +      -0.1977 * (normalized) criterium5=3
+ +       0.1871 * (normalized) criterium5=4
+ +       0.2877 * (normalized) criterium5=5
+ +      -0.2973 * (normalized) criterium6=0
+ +      -0.0699 * (normalized) criterium6=1
+ +      -0.0401 * (normalized) criterium6=3
+ +      -0.0225 * (normalized) criterium6=4
+ +       0.4298 * (normalized) criterium6=5
+ +       0.3742 * (normalized) criterium7=0
+ +      -0.4334 * (normalized) criterium7=1
+ +      -0.623  * (normalized) criterium7=3
+ +       0.0616 * (normalized) criterium7=4
+ +       0.6206 * (normalized) criterium7=5
+ +      -0.2313 * (normalized) criterium8=0
+ +       0.2615 * (normalized) criterium8=2
+ +      -0.1994 * (normalized) criterium8=3
+ +       0.1693 * (normalized) criterium8=4
+ +       0      * (normalized) criterium8=5
+ +       0.3223 * (normalized) criterium9=0
+ +      -0.3172 * (normalized) criterium9=1
+ +      -0.0489 * (normalized) criterium9=2
+ +      -0.2397 * (normalized) criterium9=3
+ +       0.1679 * (normalized) criterium9=4
+ +       0.1156 * (normalized) criterium9=5
+ +      -0.3415 * (normalized) criterium10=0
+ +      -0.4402 * (normalized) criterium10=2
+ +       0.0371 * (normalized) criterium10=3
+ +       0.395  * (normalized) criterium10=4
+ +       0.3496 * (normalized) criterium10=5
+ +       0.358 
+
+Number of kernel evaluations: 4828 (95.266% cached)
+
+Classifier for classes: 3, 5
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.0109 * (normalized) user=9
+ +      -0.2684 * (normalized) user=14
+ +      -0.0225 * (normalized) user=15
+ +      -0.0246 * (normalized) user=16
+ +       0.3792 * (normalized) user=33
+ +       0.0623 * (normalized) user=66
+ +      -0.8077 * (normalized) user=67
+ +       0.1697 * (normalized) user=70
+ +       0.2933 * (normalized) user=73
+ +      -0.275  * (normalized) user=82
+ +       0.1692 * (normalized) user=83
+ +       0.0268 * (normalized) user=84
+ +       0      * (normalized) user=85
+ +      -0.1412 * (normalized) user=86
+ +      -0.0468 * (normalized) user=87
+ +       0.4749 * (normalized) user=89
+ +      -0.3815 * (normalized) project=9
+ +       0.08   * (normalized) project=151
+ +       0.0435 * (normalized) project=165
+ +      -0.2684 * (normalized) project=229
+ +       0.1724 * (normalized) project=278
+ +      -0.1335 * (normalized) project=308
+ +       0.1349 * (normalized) project=557
+ +      -0.2873 * (normalized) project=627
+ +       0.3792 * (normalized) project=3265
+ +       0.2167 * (normalized) project=3517
+ +       0.0157 * (normalized) project=3546
+ +      -0.0246 * (normalized) project=3607
+ +      -0.2387 * (normalized) project=3644
+ +       0.2074 * (normalized) project=3855
+ +      -0.3614 * (normalized) project=3926
+ +      -0.3241 * (normalized) project=3975
+ +       0.15   * (normalized) project=4696
+ +      -0.0225 * (normalized) project=7918
+ +       0.2981 * (normalized) project=15984
+ +       0.344  * (normalized) project=24234
+ +      -0.2355 * (normalized) criterium1=0
+ +      -0.3614 * (normalized) criterium1=1
+ +      -0.0033 * (normalized) criterium1=2
+ +       0.1789 * (normalized) criterium1=3
+ +       0.2056 * (normalized) criterium1=4
+ +       0.2158 * (normalized) criterium1=5
+ +       0.5355 * (normalized) criterium2=0
+ +      -0.275  * (normalized) criterium2=1
+ +      -0.4837 * (normalized) criterium2=2
+ +       0.037  * (normalized) criterium2=3
+ +      -0.1968 * (normalized) criterium2=4
+ +       0.383  * (normalized) criterium2=5
+ +       0.5262 * (normalized) criterium3=0
+ +      -0.6077 * (normalized) criterium3=3
+ +      -0.1907 * (normalized) criterium3=4
+ +       0.2721 * (normalized) criterium3=5
+ +       0.239  * (normalized) criterium4=0
+ +      -0.0225 * (normalized) criterium4=2
+ +       0.0778 * (normalized) criterium4=3
+ +      -0.3091 * (normalized) criterium4=4
+ +       0.0148 * (normalized) criterium4=5
+ +      -0.1163 * (normalized) criterium5=0
+ +      -0.0225 * (normalized) criterium5=2
+ +      -0.3565 * (normalized) criterium5=3
+ +       0.2786 * (normalized) criterium5=4
+ +       0.2167 * (normalized) criterium5=5
+ +      -0.1952 * (normalized) criterium6=0
+ +      -0.0225 * (normalized) criterium6=1
+ +      -0.0246 * (normalized) criterium6=3
+ +       0.1999 * (normalized) criterium6=4
+ +       0.0424 * (normalized) criterium6=5
+ +       0.5262 * (normalized) criterium7=0
+ +      -0.4463 * (normalized) criterium7=1
+ +      -0.4119 * (normalized) criterium7=3
+ +      -0.42   * (normalized) criterium7=4
+ +       0.7519 * (normalized) criterium7=5
+ +      -0.2042 * (normalized) criterium8=0
+ +       0      * (normalized) criterium8=2
+ +      -0.1401 * (normalized) criterium8=3
+ +       0.3175 * (normalized) criterium8=4
+ +       0.0268 * (normalized) criterium8=5
+ +      -0.2815 * (normalized) criterium9=0
+ +      -0.0471 * (normalized) criterium9=2
+ +       0.0733 * (normalized) criterium9=3
+ +       0.0662 * (normalized) criterium9=4
+ +       0.189  * (normalized) criterium9=5
+ +       0.0285 * (normalized) criterium10=0
+ +      -0.0396 * (normalized) criterium10=2
+ +      -0.0729 * (normalized) criterium10=3
+ +      -0.0839 * (normalized) criterium10=4
+ +       0.1679 * (normalized) criterium10=5
+ -       0.0725
+
+Number of kernel evaluations: 2370 (90.481% cached)
+
+Classifier for classes: 4, 5
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.2603 * (normalized) user=9
+ +       0.3743 * (normalized) user=11
+ +       0.9302 * (normalized) user=15
+ +      -0.0444 * (normalized) user=16
+ +       0.2612 * (normalized) user=19
+ +      -0.2303 * (normalized) user=21
+ +       0.5138 * (normalized) user=33
+ +      -1.3212 * (normalized) user=36
+ +       1      * (normalized) user=40
+ +      -0.1559 * (normalized) user=63
+ +      -0.1048 * (normalized) user=64
+ +      -0.4972 * (normalized) user=65
+ +       0.1798 * (normalized) user=66
+ +      -0.5845 * (normalized) user=67
+ +      -0.2169 * (normalized) user=69
+ +       0.783  * (normalized) user=70
+ +      -0.3736 * (normalized) user=71
+ +      -0.0362 * (normalized) user=72
+ +       1.1452 * (normalized) user=73
+ +      -0.5615 * (normalized) user=74
+ +      -0.3671 * (normalized) user=75
+ +      -0.0221 * (normalized) user=76
+ +      -0.2279 * (normalized) user=77
+ +      -0.8187 * (normalized) user=79
+ +      -0.4589 * (normalized) user=81
+ +       0.1773 * (normalized) user=83
+ +       0.6914 * (normalized) user=84
+ +       0      * (normalized) user=85
+ +       0.0001 * (normalized) user=86
+ +      -0.1466 * (normalized) user=88
+ +       0.3719 * (normalized) user=89
+ +       0.9591 * (normalized) project=1
+ +       0.1351 * (normalized) project=9
+ +      -0.2303 * (normalized) project=20
+ +      -0.2    * (normalized) project=27
+ +       0.6586 * (normalized) project=28
+ +      -0.8132 * (normalized) project=29
+ +      -0.335  * (normalized) project=32
+ +       0.6333 * (normalized) project=34
+ +       0.3562 * (normalized) project=43
+ +       0.2325 * (normalized) project=55
+ +      -0.2957 * (normalized) project=72
+ +       0.9404 * (normalized) project=88
+ +      -0.9865 * (normalized) project=114
+ +      -0.0927 * (normalized) project=118
+ +       0.6062 * (normalized) project=151
+ +       0.5858 * (normalized) project=165
+ +       1.4803 * (normalized) project=278
+ +      -0.5687 * (normalized) project=579
+ +      -0.4299 * (normalized) project=3138
+ +       0.4775 * (normalized) project=3141
+ +      -0.304  * (normalized) project=3192
+ +      -0.392  * (normalized) project=3235
+ +       0.5138 * (normalized) project=3265
+ +      -0.406  * (normalized) project=3489
+ +       0.0294 * (normalized) project=3499
+ +      -0.1306 * (normalized) project=3517
+ +      -0.0624 * (normalized) project=3546
+ +      -0.8896 * (normalized) project=3547
+ +      -0.0633 * (normalized) project=3562
+ +      -0.2301 * (normalized) project=3670
+ +       0.2697 * (normalized) project=3745
+ +       0.5137 * (normalized) project=3855
+ +      -0.5232 * (normalized) project=3926
+ +       0.1171 * (normalized) project=3975
+ +      -0.0808 * (normalized) project=4014
+ +       0.6093 * (normalized) project=4018
+ +      -0.5451 * (normalized) project=4032
+ +      -1.5001 * (normalized) project=4139
+ +      -0.4015 * (normalized) project=4233
+ +       0.2883 * (normalized) project=4696
+ +      -0.0182 * (normalized) project=5545
+ +      -0.4364 * (normalized) project=5793
+ +      -1      * (normalized) project=6303
+ +      -0.9682 * (normalized) project=7290
+ +       0.1169 * (normalized) project=7448
+ +      -0.5353 * (normalized) project=7915
+ +       0.0739 * (normalized) project=8267
+ +      -0.0221 * (normalized) project=8451
+ +       0.0695 * (normalized) project=10026
+ +       0      * (normalized) project=13307
+ +       0.7466 * (normalized) project=15963
+ +       0.9474 * (normalized) project=15984
+ +      -0.5    * (normalized) project=16466
+ +       1      * (normalized) project=16813
+ +       1      * (normalized) project=24234
+ +      -0.3918 * (normalized) project=26825
+ +      -0.008  * (normalized) project=34435
+ +      -0.4376 * (normalized) criterium1=0
+ +      -0.3212 * (normalized) criterium1=1
+ +      -0.1258 * (normalized) criterium1=2
+ +       0.0183 * (normalized) criterium1=3
+ +       0.2902 * (normalized) criterium1=4
+ +       0.5762 * (normalized) criterium1=5
+ +      -0.3484 * (normalized) criterium2=0
+ +       0.1311 * (normalized) criterium2=2
+ +      -0.4996 * (normalized) criterium2=3
+ +      -0.2961 * (normalized) criterium2=4
+ +       1.0131 * (normalized) criterium2=5
+ +       0.1104 * (normalized) criterium3=0
+ +      -0.2521 * (normalized) criterium3=4
+ +       0.1417 * (normalized) criterium3=5
+ +       0.1104 * (normalized) criterium4=0
+ +      -0.3212 * (normalized) criterium4=1
+ +      -0.406  * (normalized) criterium4=2
+ +       0.4474 * (normalized) criterium4=3
+ +       0.0161 * (normalized) criterium4=4
+ +       0.1534 * (normalized) criterium4=5
+ +       0.3892 * (normalized) criterium5=0
+ +       0.1828 * (normalized) criterium5=2
+ +      -0.874  * (normalized) criterium5=3
+ +      -0.0578 * (normalized) criterium5=4
+ +       0.3598 * (normalized) criterium5=5
+ +       0.2081 * (normalized) criterium6=0
+ +      -0.6955 * (normalized) criterium6=1
+ +       1      * (normalized) criterium6=2
+ +      -0.3709 * (normalized) criterium6=3
+ +      -0.1455 * (normalized) criterium6=4
+ +       0.0038 * (normalized) criterium6=5
+ +       0.1104 * (normalized) criterium7=0
+ +      -0.4862 * (normalized) criterium7=3
+ +      -0.4263 * (normalized) criterium7=4
+ +       0.8021 * (normalized) criterium7=5
+ +      -0.7376 * (normalized) criterium8=0
+ +      -0.2957 * (normalized) criterium8=1
+ +      -0.025  * (normalized) criterium8=2
+ +       0.0759 * (normalized) criterium8=3
+ +       0.5699 * (normalized) criterium8=4
+ +       0.4124 * (normalized) criterium8=5
+ +       0.4896 * (normalized) criterium9=0
+ +      -0.494  * (normalized) criterium9=1
+ +      -0.4544 * (normalized) criterium9=3
+ +      -0.0019 * (normalized) criterium9=4
+ +       0.4607 * (normalized) criterium9=5
+ +       0.7832 * (normalized) criterium10=0
+ +       0.1216 * (normalized) criterium10=3
+ +      -0.7295 * (normalized) criterium10=4
+ +      -0.1752 * (normalized) criterium10=5
+ -       1.571 
+
+Number of kernel evaluations: 15825 (94.987% cached)
+
+
+
+Time taken to build model: 0.81 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         139               62.3318 %
+Incorrectly Classified Instances        84               37.6682 %
+Kappa statistic                          0.3589
+Mean absolute error                      0.2338
+Root mean squared error                  0.3284
+Relative absolute error                116.16   %
+Root relative squared error            104.0695 %
+Total Number of Instances              223     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0         0.005      0         0         0          0.588    0
+                 0         0          0         0         0          0.473    1
+                 0         0          0         0         0          0.721    2
+                 0.429     0.064      0.409     0.429     0.419      0.804    3
+                 0.679     0.36       0.655     0.679     0.667      0.653    4
+                 0.643     0.216      0.643     0.643     0.643      0.749    5
+Weighted Avg.    0.623     0.268      0.61      0.623     0.616      0.703
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e  f   <-- classified as
+  0  0  0  0  1  1 |  a = 0
+  0  0  0  0  1  0 |  b = 1
+  0  0  0  2  0  1 |  c = 2
+  0  0  0  9 11  1 |  d = 3
+  1  0  0  8 76 27 |  e = 4
+  0  0  0  3 27 54 |  f = 5
+

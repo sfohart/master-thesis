@@ -1,0 +1,60 @@
+=== Run information ===
+
+Scheme:weka.classifiers.bayes.HNB 
+Relation:     multicriteria-weka.filters.unsupervised.attribute.NumericToNominal-Rfirst-last
+Instances:    223
+Attributes:   13
+              user
+              project
+              criterium1
+              criterium2
+              criterium3
+              criterium4
+              criterium5
+              criterium6
+              criterium7
+              criterium8
+              criterium9
+              criterium10
+              overall
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+HNB (Hidden Naive Bayes)
+
+Time taken to build model: 0.03 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         141               63.2287 %
+Incorrectly Classified Instances        82               36.7713 %
+Kappa statistic                          0.356 
+Mean absolute error                      0.1333
+Root mean squared error                  0.3064
+Relative absolute error                 66.2324 %
+Root relative squared error             97.096  %
+Total Number of Instances              223     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0         0.005      0         0         0          0.869    0
+                 0         0          0         0         0          0.495    1
+                 0         0.005      0         0         0          0.917    2
+                 0.19      0.025      0.444     0.19      0.267      0.897    3
+                 0.714     0.351      0.672     0.714     0.693      0.727    4
+                 0.679     0.259      0.613     0.679     0.644      0.767    5
+Weighted Avg.    0.632     0.276      0.61      0.632     0.616      0.761
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e  f   <-- classified as
+  0  0  0  0  1  1 |  a = 0
+  0  0  0  0  1  0 |  b = 1
+  0  0  0  2  0  1 |  c = 2
+  0  0  1  4 11  5 |  d = 3
+  0  0  0  3 80 29 |  e = 4
+  1  0  0  0 26 57 |  f = 5
+

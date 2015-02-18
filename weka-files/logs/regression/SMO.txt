@@ -1,0 +1,56 @@
+=== Run information ===
+
+Scheme:weka.classifiers.functions.SMOreg -C 1.0 -N 0 -I "weka.classifiers.functions.supportVector.RegSMOImproved -L 0.001 -W 1 -P 1.0E-12 -T 0.001 -V" -K "weka.classifiers.functions.supportVector.PolyKernel -C 250007 -E 1.0"
+Relation:     multicriteria
+Instances:    223
+Attributes:   13
+              user
+              project
+              criterium1
+              criterium2
+              criterium3
+              criterium4
+              criterium5
+              criterium6
+              criterium7
+              criterium8
+              criterium9
+              criterium10
+              overall
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+SMOreg
+
+weights (not support vectors):
+ +       0.0699 * (normalized) user
+ -       0.054  * (normalized) project
+ +       0.0932 * (normalized) criterium1
+ +       0.1175 * (normalized) criterium2
+ +       0.2271 * (normalized) criterium3
+ +       0.0694 * (normalized) criterium4
+ -       0.0241 * (normalized) criterium5
+ +       0.0174 * (normalized) criterium6
+ +       0.2912 * (normalized) criterium7
+ +       0.0028 * (normalized) criterium8
+ +       0.1043 * (normalized) criterium9
+ -       0.0042 * (normalized) criterium10
+ +       0.0422
+
+
+
+Number of kernel evaluations: 24976 (96.019% cached)
+
+Time taken to build model: 0.07 seconds
+
+=== Cross-validation ===
+=== Summary ===
+
+Correlation coefficient                  0.5371
+Mean absolute error                      0.4762
+Root mean squared error                  0.7367
+Relative absolute error                 79.5469 %
+Root relative squared error             90.0938 %
+Total Number of Instances              223     
+

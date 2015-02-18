@@ -1,0 +1,50 @@
+=== Run information ===
+
+Scheme:weka.classifiers.functions.GaussianProcesses -L 1.0 -N 0 -K "weka.classifiers.functions.supportVector.RBFKernel -C 250007 -G 1.0"
+Relation:     multicriteria
+Instances:    223
+Attributes:   13
+              user
+              project
+              criterium1
+              criterium2
+              criterium3
+              criterium4
+              criterium5
+              criterium6
+              criterium7
+              criterium8
+              criterium9
+              criterium10
+              overall
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Gaussian Processes
+
+Kernel used:
+  RBF kernel: K(x,y) = e^-(1.0* <x-y,x-y>^2)
+
+Average Target Value : 4.20627802690583
+Inverted Covariance Matrix:
+    Lowest Value = -0.2962668103221648
+    Highest Value = 0.9324729711639356
+Inverted Covariance Matrix * Target-value Vector:
+    Lowest Value = -3.0866016180516036
+    Highest Value = 1.4748055944935006
+ 
+
+
+Time taken to build model: 0.17 seconds
+
+=== Cross-validation ===
+=== Summary ===
+
+Correlation coefficient                  0.5423
+Mean absolute error                      0.4658
+Root mean squared error                  0.6872
+Relative absolute error                 77.7991 %
+Root relative squared error             84.0419 %
+Total Number of Instances              223     
+

@@ -1,0 +1,83 @@
+=== Run information ===
+
+Scheme:weka.classifiers.bayes.AODE -F 1
+Relation:     multicriteria-weka.filters.unsupervised.attribute.NumericToNominal-Rfirst-last
+Instances:    223
+Attributes:   13
+              user
+              project
+              criterium1
+              criterium2
+              criterium3
+              criterium4
+              criterium5
+              criterium6
+              criterium7
+              criterium8
+              criterium9
+              criterium10
+              overall
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+The AODE Classifier
+Class 0: Prior probability = 0.01
+
+
+Class 1: Prior probability = 0.01
+
+
+Class 2: Prior probability = 0.02
+
+
+Class 3: Prior probability = 0.1 
+
+
+Class 4: Prior probability = 0.49
+
+
+Class 5: Prior probability = 0.37
+
+Dataset: multicriteria-weka.filters.unsupervised.attribute.NumericToNominal-Rfirst-last
+Instances: 223
+Attributes: 13
+Frequency limit for superParents: 1
+Correction: laplace
+
+
+Time taken to build model: 0.02 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         151               67.713  %
+Incorrectly Classified Instances        72               32.287  %
+Kappa statistic                          0.4386
+Mean absolute error                      0.1264
+Root mean squared error                  0.278 
+Relative absolute error                 62.7833 %
+Root relative squared error             88.0962 %
+Total Number of Instances              223     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0         0          0         0         0          0.706    0
+                 0         0          0         0         0          0.896    1
+                 0.333     0          1         0.333     0.5        0.938    2
+                 0.381     0.03       0.571     0.381     0.457      0.926    3
+                 0.732     0.342      0.683     0.732     0.707      0.784    4
+                 0.714     0.201      0.682     0.714     0.698      0.819    5
+Weighted Avg.    0.677     0.251      0.667     0.677     0.668      0.812
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e  f   <-- classified as
+  0  0  0  0  2  0 |  a = 0
+  0  0  0  0  1  0 |  b = 1
+  0  0  1  1  1  0 |  c = 2
+  0  0  0  8 11  2 |  d = 3
+  0  0  0  4 82 26 |  e = 4
+  0  0  0  1 23 60 |  f = 5
+

@@ -1,0 +1,66 @@
+=== Run information ===
+
+Scheme:weka.classifiers.lazy.LBR 
+Relation:     multicriteria-weka.filters.unsupervised.attribute.NumericToNominal-Rfirst-last
+Instances:    223
+Attributes:   13
+              user
+              project
+              criterium1
+              criterium2
+              criterium3
+              criterium4
+              criterium5
+              criterium6
+              criterium7
+              criterium8
+              criterium9
+              criterium10
+              overall
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+=== LBR Run information ===
+
+Scheme:       weka.classifiers.LBR
+Relation:     overall
+Instances:    223
+Attributes:   13
+
+
+Time taken to build model: 0.02 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         149               66.8161 %
+Incorrectly Classified Instances        74               33.1839 %
+Kappa statistic                          0.4456
+Mean absolute error                      0.1191
+Root mean squared error                  0.2796
+Relative absolute error                 59.1789 %
+Root relative squared error             88.6013 %
+Total Number of Instances              223     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0         0          0         0         0          0.561    0
+                 0         0.014      0         0         0          0.941    1
+                 0.333     0.009      0.333     0.333     0.333      0.942    2
+                 0.524     0.054      0.5       0.524     0.512      0.931    3
+                 0.714     0.279      0.721     0.714     0.717      0.805    4
+                 0.679     0.194      0.679     0.679     0.679      0.824    5
+Weighted Avg.    0.668     0.219      0.669     0.668     0.669      0.824
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e  f   <-- classified as
+  0  0  0  0  1  1 |  a = 0
+  0  0  1  0  0  0 |  b = 1
+  0  1  1  1  0  0 |  c = 2
+  0  0  1 11  8  1 |  d = 3
+  0  1  0  6 80 25 |  e = 4
+  0  1  0  4 22 57 |  f = 5
+

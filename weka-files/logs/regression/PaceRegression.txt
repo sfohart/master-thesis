@@ -1,0 +1,51 @@
+=== Run information ===
+
+Scheme:weka.classifiers.functions.PaceRegression -E eb
+Relation:     multicriteria
+Instances:    223
+Attributes:   13
+              user
+              project
+              criterium1
+              criterium2
+              criterium3
+              criterium4
+              criterium5
+              criterium6
+              criterium7
+              criterium8
+              criterium9
+              criterium10
+              overall
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+
+Pace Regression Model
+
+overall =
+
+      1.6718 +
+      0.0054 * user +
+      0.1171 * criterium1 +
+      0.0897 * criterium2 +
+      0.0847 * criterium3 +
+      0.0326 * criterium6 +
+      0.1572 * criterium7 +
+     -0.01   * criterium8 +
+      0.04   * criterium9 +
+      0.0276 * criterium10
+
+Time taken to build model: 0.09 seconds
+
+=== Cross-validation ===
+=== Summary ===
+
+Correlation coefficient                  0.4857
+Mean absolute error                      0.5057
+Root mean squared error                  0.7196
+Relative absolute error                 84.4736 %
+Root relative squared error             88.0008 %
+Total Number of Instances              223     
+

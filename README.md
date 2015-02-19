@@ -7,9 +7,9 @@ This repository is organized in the following way:
                 log generated during the execution of each machine learning algorithm, and also the ARFF files
                 containing the estimated value of each general assessment of the users of our tool [2]. Our tool
                 is available from url http://www.searchfloss.com.br
-* `WekaCorrelationRProject`: R [3] design created to confirm the use of Pearson correlation in the Function
+* `WekaCorrelationRProject`: R project [3] created to confirm the use of Pearson correlation in the Function
                 statistical regression of Weka [1];
-* `SurveyRProject`: Project R [3] created to analyze the data from our field survey, drawn up tool
+* `SurveyRProject`: R project [3] created to analyze the data from our field survey, drawn up tool
                 LimeSurvey [4]
 
 

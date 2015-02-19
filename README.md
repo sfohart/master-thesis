@@ -20,7 +20,7 @@ This repository is organized in the following way:
 
 [1] Hall, Mark, et al. "The WEKA data mining software: an update." ACM SIGKDD explorations newsletter 11.1 (2009): 10-18.
 
-[2] Ferreira, LS, Bittencourt, RA, Chavez, C. V. F. G. Sfohart: A Multicriteria Recommendation System for Open Source Adoption.
+[2] Ferreira, LS, Bittencourt, RA, Chavez, C. V. F. G. Sfohart: Um sistema de recomendação multicritério para adoção de software livre.
 
 [3] Team, R. Core. "R Language Definition." (2000).
 

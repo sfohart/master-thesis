@@ -1,10 +1,11 @@
-#install.packages(c('reshape2','ggplot2','scales', 'grid'))
+#install.packages("dplyr")
 load("surveyData.RData")
 
 require(reshape2)
 require(ggplot2)
 require(scales)
 require(grid)
+require(plyr)
 
 fator.tecnologico.labels <- c(
   "Facilidade de testar e de ser avaliado por usuários de um modo geral",
@@ -36,27 +37,27 @@ fator.tecnologico.resultado <- as.data.frame(
   rbind(
     colSums(fator.tecnologico.dados[3:4,]),
     colSums(fator.tecnologico.dados[1:2,])
-    )
   )
+)
 
 fator.tecnologico.percentagens <- as.data.frame(
   rbind(    
     mapply(
       colSums(fator.tecnologico.dados[3:4,]),
       FUN = function(r,c) round(r / 152 * 100, digits=2)
-      ),
+    ),
     mapply(
       colSums(fator.tecnologico.dados[1:2,]),
       FUN = function(r,c) round(r / 152 * 100, digits=2)
-      )
     )
   )
+)
 
 fator.tecnologico.resultado <- cbind(
   fator.tecnologico.resultado,
   Label = c("influência considerável ou alta","pouca ou nenhuma influência")
   #Label = c("pouca ou nenhuma influência","influência considerável ou alta")
-  )
+)
 
 fator.tecnologico.percentagens <- cbind(
   fator.tecnologico.percentagens,
@@ -71,7 +72,7 @@ fator.tecnologico.resultado.agrupado <- reshape(
   direction='long', 
   idvar='Label', 
   times=fator.tecnologico.labels
-  ) 
+) 
 
 fator.tecnologico.percentagens.agrupado <- reshape(
   fator.tecnologico.percentagens, 
@@ -79,29 +80,40 @@ fator.tecnologico.percentagens.agrupado <- reshape(
   direction='long', 
   idvar='Label', 
   times=fator.tecnologico.labels
-  ) 
+) 
 
+fator.tecnologico.resultado.agrupado <- mutate(
+  group_by(
+    fator.tecnologico.resultado.agrupado, 
+    time),
+  V1,
+  cumulativo = cumsum(V1)
+  )
 
-fator.tecnologico.resultado.agrupado.grafico <- ggplot(aes(x=time, y = V1, fill = Label, position = "fill"), data=fator.tecnologico.resultado.agrupado) + # Informa os dados
-  #theme_classic() +
-  theme(legend.position="top",  text = element_text(size=15, face = "bold")) +
-  geom_bar(stat='identity',  colour = "black", ymax=152) + # Informa que tu quer um gráfico de barras
-  
-  geom_text (aes(x=time, y=V1, fill=Label, label = V1), ymax=152, fontface = "bold", color="black", hjust=-0.25, size = 4.5) +
-  scale_y_continuous(limit =  c(0,152)) +
+fator.tecnologico.percentagens.agrupado <- mutate(
+  group_by(
+    fator.tecnologico.resultado.agrupado, 
+    time),
+  V1,
+  cumulativo = cumsum(V1)
+)
+
+fator.tecnologico.resultado.agrupado.grafico <- ggplot(fator.tecnologico.resultado.agrupado, aes(x = time, y = V1, fill = Label)) + # Informa os dados
+  geom_bar(stat='identity') + # Informa que tu quer um gráfico de barras
+  #geom_text (aes(x = time, y = cumulativo, label = sprintf("%d (%.2f%%)", V1, V1 / 152 * 100))) +
+  geom_text (aes(x = time, y = cumulativo, label = V1), hjust=-0.25, size = 4.5) +
+  scale_y_continuous(limit =  c(0,200)) +
   # Inverte os eixos X e Y
   coord_flip() + 
-  # Coloca titulo no eixo X
-  ylab('Frequência (%)') + 
-  # Coloca titulo do eixo Y
+  ylab('Frequência') + 
   xlab('Fatores de adoção') +  
-  # Coloca titulo no grafico
-  ggtitle("Na sua opinião, em que grau estes fatores influenciam\n a adoção de software livre do ponto de vista tecnológico?") + 
+  ggtitle("Na sua opinião, em que grau estes fatores influenciam\n a adoção de software livre do ponto de vista tecnológico?") +
   # Coloca titulo na legenda
   scale_fill_manual('Legenda', values = c("#66CC99","#CC6666"))
 
 
 fator.tecnologico.resultado.agrupado.grafico
+
 
 
 ggsave(fator.tecnologico.resultado.agrupado.grafico, file="pictures/06-fator-tecnologico-percentagens.png")

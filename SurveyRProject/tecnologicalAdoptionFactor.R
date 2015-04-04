@@ -5,7 +5,7 @@ require(reshape2)
 require(ggplot2)
 require(scales)
 require(grid)
-require(plyr)
+require(dplyr)
 
 fator.tecnologico.labels <- c(
   "Facilidade de testar e de ser avaliado por usuários de um modo geral",

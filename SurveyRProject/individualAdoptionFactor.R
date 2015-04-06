@@ -84,7 +84,7 @@ fator.individual.resultado.agrupado.grafico <- ggplot(fator.individual.resultado
 
 fator.individual.resultado.agrupado.grafico
 
-ggsave(fator.individual.resultado.agrupado.grafico, file="pictures/06-fator-individual-stacked.png")
+ggsave(fator.individual.resultado.agrupado.grafico, file="pictures/09-fator-individual-stacked.png")
 
 #######################################################################################
 # gráfico antigo, agora com percentuais
@@ -125,5 +125,5 @@ text(
   pos = 4,   
   cex = .55)
 
-dev.copy(png,"pictures/06-fator-individual.png",  width=1024, height=618, units = "px")
+dev.copy(png,"pictures/09-fator-individual.png",  width=1024, height=618, units = "px")
 dev.off()

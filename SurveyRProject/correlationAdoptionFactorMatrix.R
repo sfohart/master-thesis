@@ -32,7 +32,7 @@ fatores_labels <- c(
   )
 
 
-tamanho <- 80 # O limite de caracteres (ele vai quebrar no espaço anterior a palavra que ultrapassa o limite)
+tamanho <- 100 # O limite de caracteres (ele vai quebrar no espaço anterior a palavra que ultrapassa o limite)
 (fatores_labels <- strwrap(fatores_labels, tamanho, simplify=F)) # Cria uma lista onde cada elemento é um vetor com até 40 caracteres. 
 (fatores_labels <- mapply(paste, fatores_labels, collapse='\n')) # Monta o vetor com as labels.
 

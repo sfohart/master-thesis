@@ -1,16 +1,29 @@
+#install.packages("dplyr")
+load("surveyData.RData")
+
+
 A <- table(as.numeric(data[,9]))
 B <- table(as.numeric(data[,10]))
 C <- table(as.numeric(data[,11]))
 D <- table(as.numeric(data[,12]))
 
 
-floss_type <- cbind(A,B,C,D)
+
+
+floss.type <- cbind(A,B,C,D)
 rm(A,B,C,D)
+
+
+floss.type.percentagem <- apply(
+  floss.type,
+  2,
+  function(x) sprintf("%d\n(%.2f%%)", x, x * 100 / 152)
+)
 
 par(mfrow=c(1,1))
 
-floss_type_graph <- barplot(
-    floss_type,
+floss.type.graph <- barplot(
+    floss.type,
     beside = TRUE,
     ylim=c(0,150),
     cex.axis = 0.8,
@@ -30,11 +43,11 @@ floss_type_graph <- barplot(
 
 
 text(
-    floss_type_graph, 
-    floss_type, 
-    labels = format(floss_type, 4),
+    floss.type.graph, 
+    floss.type, 
+    labels = format(floss.type.percentagem, 5),
     pos = 3, 
-    cex = .7)
+    cex = .6)
 
 
 dev.copy(png,"pictures/02-tipo-floss-utilizado.png", width=861, height=545, units = "px")

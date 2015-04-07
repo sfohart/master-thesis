@@ -86,7 +86,7 @@ fator.mercadologico.resultado.agrupado.grafico <- ggplot(fator.mercadologico.res
 
 fator.mercadologico.resultado.agrupado.grafico
 
-ggsave(fator.mercadologico.resultado.agrupado.grafico, file="pictures/06-fator-mercadologico-stacked.png")
+ggsave(fator.mercadologico.resultado.agrupado.grafico, file="pictures/08-fator-mercadologico-stacked.png")
 
 #######################################################################################
 # gráfico antigo, agora com percentuais
@@ -127,5 +127,5 @@ text(
   pos = 4,   
   cex = .55)
 
-dev.copy(png,"pictures/06-fator-mercadologico.png",  width=1024, height=618, units = "px")
+dev.copy(png,"pictures/08-fator-mercadologico.png",  width=1024, height=618, units = "px")
 dev.off()

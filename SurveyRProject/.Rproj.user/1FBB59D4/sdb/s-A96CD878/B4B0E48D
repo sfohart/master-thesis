@@ -1,0 +1,16 @@
+{
+    "contents" : "#install.packages(\"dplyr\")\nload(\"surveyData.RData\")\n\n\ntempo.uso.labels <- c(\"há menos de 6 meses\",\n                      \"entre 6 meses e 1 ano\",\n                      \"entre 1 e 2 anos\",\n                      \"entre 3 e 5 anos\",\n                      \"entre 5 e 10 anos\",\n                      \"há mais de 10 anos\")\n\n# Quebrando o texto automaticamente (Só tirei os \\n do vetor de cima e acrescentei as 3 linhas abaixo)\n# tamanho <- 20 # O limite de caracteres (ele vai quebrar no espaço anterior a palavra que ultrapassa o limite)\n# (tempo.uso.labels <- strwrap(tempo.uso.labels, tamanho, simplify=F)) # Cria uma lista onde cada elemento é um vetor com até 40 caracteres. \n# (tempo.uso.labels <- mapply(paste, tempo.uso.labels, collapse='\\n')) # Monta o vetor com as labels.\n\n\ntempo.uso <- cbind( table( as.numeric(data[,15]) ) )\n\npar(mfrow=c(1,1))\n\ntempo.uso.percentagem <- apply(\n  tempo.uso,\n  2,\n  function(x) sprintf(\"%d\\n(%.2f%%)\", x, x * 100 / 152)\n)\n\ntempo.uso.grafico <- \n  barplot (\n    tempo.uso,\n    space = c(0, 0.25, 0.25, 0.25, 0.25, 0.25),\n    beside = TRUE,\n    cex.axis = 0.7,\n    cex.names = 0.7,\n    cex.main = 0.9,\n    ylim=c(0,80),\n    main=\"Há quanto tempo você utiliza software livre?\",\n    col=rainbow(6),\n    args.legend = list(x = 4, bty = \"n\", cex = 0.8, ncol=2, adj = c(0, .6)),\n    legend.text = tempo.uso.labels\n  )\n\ntext(\n  tempo.uso.grafico, \n  tempo.uso, \n  labels = format(tempo.uso.percentagem, 4),\n  pos = 3, \n  cex = .7)\n\ndev.copy(png,\"pictures/05-tempo-uso-floss.png\", width=1024, height=618, units = \"px\")\ndev.off()",
+    "created" : 1428111275079.000,
+    "dirty" : false,
+    "encoding" : "ISO8859-1",
+    "folds" : "",
+    "hash" : "2397386456",
+    "id" : "B4B0E48D",
+    "lastKnownWriteTime" : 1428113276,
+    "path" : "C:/Users/Leandro/git/master-thesis/SurveyRProject/flossUseTime.R",
+    "project_path" : "flossUseTime.R",
+    "properties" : {
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}

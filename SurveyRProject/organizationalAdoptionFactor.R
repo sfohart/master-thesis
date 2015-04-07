@@ -84,7 +84,7 @@ fator.organizacional.resultado.agrupado.grafico <- ggplot(fator.organizacional.r
 
 fator.organizacional.resultado.agrupado.grafico
 
-ggsave(fator.organizacional.resultado.agrupado.grafico, file="pictures/06-fator-organizacional-stacked.png")
+ggsave(fator.organizacional.resultado.agrupado.grafico, file="pictures/07-fator-organizacional-stacked.png")
 
 #######################################################################################
 # gráfico antigo, agora com percentuais
@@ -125,5 +125,5 @@ text(
   pos = 4,   
   cex = .55)
 
-dev.copy(png,"pictures/06-fator-organizacional.png",  width=1024, height=618, units = "px")
+dev.copy(png,"pictures/07-fator-organizacional.png",  width=1024, height=618, units = "px")
 dev.off()

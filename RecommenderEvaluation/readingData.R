@@ -4,3 +4,7 @@ itemBased <- read.table(
   header = TRUE,
   sep=";")
 
+contentBased <- read.table(
+  "data/Avaliação Offline - Projetos Similares.csv", 
+  header = TRUE,
+  sep=";")

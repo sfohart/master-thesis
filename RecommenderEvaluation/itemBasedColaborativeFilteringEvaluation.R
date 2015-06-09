@@ -3,26 +3,26 @@ load(".RData")
 
 itemBased <- tbl_df(itemBased)
 
-successfulRecomendations <- filter(
+itemBasedSuccessfulRecomendations <- filter(
   itemBased,
   RecomendacoesComSucessoPct == 1.00)
 
-failedRecomendations <- filter(
+itemBasedFailedRecomendations <- filter(
   itemBased,
   RecomendacoesSemSucessoPct == 1.00)
 
 
-successfulRecomendations <- arrange (successfulRecomendations, ProjetosVisualizados)
-failedRecomendations <- arrange (failedRecomendations, desc(ProjetosVisualizados))
+itemBasedSuccessfulRecomendations <- arrange (itemBasedSuccessfulRecomendations, ProjetosVisualizados)
+itemBasedFailedRecomendations <- arrange (itemBasedFailedRecomendations, desc(ProjetosVisualizados))
 
 write.table(
-  successfulRecomendations, 
+  itemBasedSuccessfulRecomendations, 
   "data/itemBasedSuccessfulRecomendations.csv",
   sep=";",
   row.names=FALSE)
 
 write.table(
-  failedRecomendations, 
+  itemBasedFailedRecomendations, 
   "data/itemBasedFailedRecomendations.csv",
   sep=";",
   row.names=FALSE)

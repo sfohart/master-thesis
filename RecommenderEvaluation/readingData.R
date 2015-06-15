@@ -8,3 +8,14 @@ contentBased <- read.table(
   "data/Avaliação Offline - Projetos Similares.csv", 
   header = TRUE,
   sep=";")
+
+multicriteriaRecommendationPrediction <- read.table(
+  "data/Recomendação Multicritério - Função de Agregação.csv", 
+  header = TRUE,
+  sep=";")
+
+
+multicriteriaRecommendationLists <- read.table(
+  "data/Recomendação Multicritério - Listas Concatenadas.csv", 
+  header = TRUE,
+  sep=";")

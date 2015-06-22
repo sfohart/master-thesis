@@ -1,8 +1,1 @@
-"IdUsuario";"ProjetosVisualizados";"RecomendacoesComSucesso";"RecomendacoesComSucessoPct";"RecomendacoesSemSucesso";"RecomendacoesSemSucessoPct"
-26;3;0;0;3;1
-17;2;0;0;2;1
-18;2;0;0;2;1
-39;2;0;0;2;1
-43;2;0;0;2;1
-45;2;0;0;2;1
-46;2;0;0;2;1
+"IdUsuario";"ProjetosVisualizados";"QuantosProjetosRecomendar";"RecomendacoesSucesso";"RecomendacoesSucessoPct";"RecomendacoesFalha";"RecomendacoesFalhaPct"

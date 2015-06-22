@@ -4,35 +4,31 @@ load(".RData")
 
 contentBased <- tbl_df(contentBased)
 
-contentBased <- arrange(
-  contentBased,
-  IdUsuario
-  )
-
 contentBasedSuccessfulRecomendations <- filter(
   contentBased,
-  ProjetoRecomendado != "")
+  RecomendacoesSucessoPct == 1.00)
 
 contentBasedFailedRecomendations <- filter(
   contentBased,
-  ProjetoRecomendado == "")
+  RecomendacoesFalhaPct == 1.00)
 
-contentBasedSuccessfulRecomendations <- arrange (
-  contentBasedSuccessfulRecomendations, 
-  IdUsuario,
-  PosicaoNaLista,
-  desc(InterseccaoTags)
-  )
+evaluationContentBased <- summarise(
+  group_by(contentBased,QuantosProjetosRecomendar), 
+  successMean = mean(RecomendacoesSucesso, na.rm = TRUE),
+  sdSuccessMean = sd(RecomendacoesSucesso),
+  failMean = mean(RecomendacoesFalha, na.rm = TRUE),
+  sdFailMean = sd(RecomendacoesFalha)
+)
 
-contentBasedFailedRecomendations <- arrange (
-  contentBasedFailedRecomendations, 
-  IdUsuario,
-  desc(ProjetosVisualizados)
-  )
+
+
+
+contentBasedSuccessfulRecomendations <- arrange (contentBasedSuccessfulRecomendations, ProjetosVisualizados)
+contentBasedFailedRecomendations <- arrange (contentBasedFailedRecomendations, desc(ProjetosVisualizados))
 
 write.table(
-  contentBased,
-  "data/Avaliação Offline - Projetos Similares.csv", 
+  evaluationContentBased, 
+  "data/evaluationContentBased.csv",
   sep=";",
   row.names=FALSE)
 

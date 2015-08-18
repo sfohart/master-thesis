@@ -6,25 +6,15 @@ itemBased <- tbl_df(itemBased)
 
 itemBasedSuccessfulRecomendations <- filter(
   itemBased,
-  RecomendacoesSucessoPct == 1.00)
-
-itemBasedFailedRecomendations <- filter(
-  itemBased,
-  RecomendacoesFalhaPct == 1.00)
+  RecomendacoesSucesso / ProjetosVisualizados == 1.00)
 
 evaluationItemBased <- summarise(
   group_by(itemBased,QuantosProjetosRecomendar), 
-  successMean = mean(RecomendacoesSucesso, na.rm = TRUE),
-  sdSuccessMean = sd(RecomendacoesSucesso),
-  failMean = mean(RecomendacoesFalha, na.rm = TRUE),
-  sdFailMean = sd(RecomendacoesFalha)
+  successMean = mean(RecomendacoesSucesso / ProjetosVisualizados, na.rm = TRUE),
+  sdSuccessMean = sd(RecomendacoesSucesso / ProjetosVisualizados)
   )
 
-
-
-
 itemBasedSuccessfulRecomendations <- arrange (itemBasedSuccessfulRecomendations, ProjetosVisualizados)
-itemBasedFailedRecomendations <- arrange (itemBasedFailedRecomendations, desc(ProjetosVisualizados))
 
 write.table(
   evaluationItemBased, 
@@ -35,11 +25,5 @@ write.table(
 write.table(
   itemBasedSuccessfulRecomendations, 
   "data/itemBasedSuccessfulRecomendations.csv",
-  sep=";",
-  row.names=FALSE)
-
-write.table(
-  itemBasedFailedRecomendations, 
-  "data/itemBasedFailedRecomendations.csv",
   sep=";",
   row.names=FALSE)

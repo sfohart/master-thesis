@@ -6,25 +6,16 @@ contentBased <- tbl_df(contentBased)
 
 contentBasedSuccessfulRecomendations <- filter(
   contentBased,
-  RecomendacoesSucessoPct == 1.00)
-
-contentBasedFailedRecomendations <- filter(
-  contentBased,
-  RecomendacoesFalhaPct == 1.00)
+  RecomendacoesSucesso / ProjetosVisualizados == 1.00)
 
 evaluationContentBased <- summarise(
   group_by(contentBased,QuantosProjetosRecomendar), 
-  successMean = mean(RecomendacoesSucesso, na.rm = TRUE),
-  sdSuccessMean = sd(RecomendacoesSucesso),
-  failMean = mean(RecomendacoesFalha, na.rm = TRUE),
-  sdFailMean = sd(RecomendacoesFalha)
+  successMean = mean(RecomendacoesSucesso / ProjetosVisualizados, na.rm = TRUE),
+  sdSuccessMean = sd(RecomendacoesSucesso / ProjetosVisualizados)
 )
 
-
-
-
 contentBasedSuccessfulRecomendations <- arrange (contentBasedSuccessfulRecomendations, ProjetosVisualizados)
-contentBasedFailedRecomendations <- arrange (contentBasedFailedRecomendations, desc(ProjetosVisualizados))
+
 
 write.table(
   evaluationContentBased, 
@@ -38,8 +29,3 @@ write.table(
   sep=";",
   row.names=FALSE)
 
-write.table(
-  contentBasedFailedRecomendations, 
-  "data/contentBasedFailedRecomendations.csv",
-  sep=";",
-  row.names=FALSE)

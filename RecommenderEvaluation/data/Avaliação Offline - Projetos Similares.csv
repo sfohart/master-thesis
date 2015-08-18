@@ -1,1024 +1,118 @@
-IdUsuario;ProjetosVisualizados;QuantosProjetosRecomendar;NomeProjetoArgumento;NomeProjetoRecomendado;PosicaoProjetoRecomendado;InterseccaoListaTags
-16;23;6;Mozilla Firefox;Chromium (Google Chrome);1;14
-16;23;12;Mozilla Firefox;Chromium (Google Chrome);1;14
-16;23;18;Mozilla Firefox;Chromium (Google Chrome);1;14
-16;23;6;Git;;;0
-16;23;12;Git;;;0
-16;23;18;Git;;;0
-16;23;6;Apache Subversion;;;0
-16;23;12;Apache Subversion;;;0
-16;23;18;Apache Subversion;;;0
-16;23;6;Struts 2;;;0
-16;23;12;Struts 2;;;0
-16;23;18;Struts 2;;;0
-16;23;6;Hibernate;;;0
-16;23;12;Hibernate;;;0
-16;23;18;Hibernate;;;0
-16;23;6;Apache Tomcat;;;0
-16;23;12;Apache Tomcat;;;0
-16;23;18;Apache Tomcat;;;0
-16;23;6;Selenium;;;0
-16;23;12;Selenium;;;0
-16;23;18;Selenium;;;0
-16;23;6;Ubuntu;;;0
-16;23;12;Ubuntu;;;0
-16;23;18;Ubuntu;;;0
-16;23;6;Apache OpenOffice;;;0
-16;23;12;Apache OpenOffice;;;0
-16;23;18;Apache OpenOffice;;;0
-16;23;6;Chromium (Google Chrome);Mozilla Firefox;1;14
-16;23;12;Chromium (Google Chrome);Mozilla Firefox;1;14
-16;23;18;Chromium (Google Chrome);Mozilla Firefox;1;14
-16;23;6;JabRef;;;0
-16;23;12;JabRef;;;0
-16;23;18;JabRef;;;0
-16;23;6;JFreeChart;;;0
-16;23;12;JFreeChart;;;0
-16;23;18;JFreeChart;;;0
-16;23;6;NetBeans IDE;;;0
-16;23;12;NetBeans IDE;;;0
-16;23;18;NetBeans IDE;;;0
-16;23;6;Eclipse Platform Project;;;0
-16;23;12;Eclipse Platform Project;;;0
-16;23;18;Eclipse Platform Project;;;0
-16;23;6;Prefuse;;;0
-16;23;12;Prefuse;;;0
-16;23;18;Prefuse;;;0
-16;23;6;Java Universal Network/Graph Framework;;;0
-16;23;12;Java Universal Network/Graph Framework;;;0
-16;23;18;Java Universal Network/Graph Framework;;;0
-16;23;6;Apache Maven 2;;;0
-16;23;12;Apache Maven 2;;;0
-16;23;18;Apache Maven 2;;;0
-16;23;6;Apache Ant;;;0
-16;23;12;Apache Ant;;;0
-16;23;18;Apache Ant;;;0
-16;23;6;JUnit;;;0
-16;23;12;JUnit;;;0
-16;23;18;JUnit;;;0
-16;23;6;R;;;0
-16;23;12;R;;;0
-16;23;18;R;;;0
-16;23;6;Joomla!;;;0
-16;23;12;Joomla!;;;0
-16;23;18;Joomla!;;;0
-16;23;6;HTML Validator for Mozilla and Firefox;;;0
-16;23;12;HTML Validator for Mozilla and Firefox;;;0
-16;23;18;HTML Validator for Mozilla and Firefox;;;0
-16;23;6;firefox-search-engine;;;0
-16;23;12;firefox-search-engine;;;0
-16;23;18;firefox-search-engine;;;0
-14;8;6;R;;;0
-14;8;12;R;;;0
-14;8;18;R;;;0
-14;8;6;Dia;;;0
-14;8;12;Dia;;;0
-14;8;18;Dia;;;0
-14;8;6;Games for Eclipse;;;0
-14;8;12;Games for Eclipse;;;0
-14;8;18;Games for Eclipse;;;0
-14;8;6;Notepad++;;;0
-14;8;12;Notepad++;;;0
-14;8;18;Notepad++;;;0
-14;8;6;Eclipse Platform Project;;;0
-14;8;12;Eclipse Platform Project;;;0
-14;8;18;Eclipse Platform Project;;;0
-14;8;6;Eclipse PDT;;;0
-14;8;12;Eclipse PDT;;;0
-14;8;18;Eclipse PDT;;;0
-14;8;6;Eclipse Java Development Tools (JDT);;;0
-14;8;12;Eclipse Java Development Tools (JDT);;;0
-14;8;18;Eclipse Java Development Tools (JDT);;;0
-14;8;6;SQuirreL SQL Client;;;0
-14;8;12;SQuirreL SQL Client;;;0
-14;8;18;SQuirreL SQL Client;;;0
-15;2;6;Empathy;;;0
-15;2;12;Empathy;;;0
-15;2;18;Empathy;;;0
-15;2;6;Mozilla Firefox;;;0
-15;2;12;Mozilla Firefox;;;0
-15;2;18;Mozilla Firefox;;;0
-17;2;6;JDownloader;;;0
-17;2;12;JDownloader;;;0
-17;2;18;JDownloader;;;0
-17;2;6;Mozilla Firefox;;;0
-17;2;12;Mozilla Firefox;;;0
-17;2;18;Mozilla Firefox;;;0
-18;2;6;GIMP;;;0
-18;2;12;GIMP;;;0
-18;2;18;GIMP;;;0
-18;2;6;R;;;0
-18;2;12;R;;;0
-18;2;18;R;;;0
-19;8;6;NetBeans IDE;;;0
-19;8;12;NetBeans IDE;;;0
-19;8;18;NetBeans IDE;;;0
-19;8;6;PHP;;;0
-19;8;12;PHP;;;0
-19;8;18;PHP;;;0
-19;8;6;WordPress;;;0
-19;8;12;WordPress;;;0
-19;8;18;WordPress;;;0
-19;8;6;Apache Tomcat;;;0
-19;8;12;Apache Tomcat;Apache HTTP Server;11;6
-19;8;18;Apache Tomcat;Apache HTTP Server;11;6
-19;8;6;phpMyAdmin;;;0
-19;8;12;phpMyAdmin;;;0
-19;8;18;phpMyAdmin;;;0
-19;8;6;Apache Subversion;;;0
-19;8;12;Apache Subversion;;;0
-19;8;18;Apache Subversion;;;0
-19;8;6;MySQL;;;0
-19;8;12;MySQL;;;0
-19;8;18;MySQL;;;0
-19;8;6;Apache HTTP Server;;;0
-19;8;12;Apache HTTP Server;;;0
-19;8;18;Apache HTTP Server;;;0
-39;2;6;Eclipse Platform Project;;;0
-39;2;12;Eclipse Platform Project;;;0
-39;2;18;Eclipse Platform Project;;;0
-39;2;6;Notepad++;;;0
-39;2;12;Notepad++;;;0
-39;2;18;Notepad++;;;0
-21;6;6;Joomla!;;;0
-21;6;12;Joomla!;;;0
-21;6;18;Joomla!;;;0
-21;6;6;Geany;;;0
-21;6;12;Geany;;;0
-21;6;18;Geany;;;0
-21;6;6;Notepad++;;;0
-21;6;12;Notepad++;;;0
-21;6;18;Notepad++;;;0
-21;6;6;R;;;0
-21;6;12;R;;;0
-21;6;18;R;;;0
-21;6;6;Mozilla Firefox;;;0
-21;6;12;Mozilla Firefox;;;0
-21;6;18;Mozilla Firefox;;;0
-21;6;6;GIMP;;;0
-21;6;12;GIMP;;;0
-21;6;18;GIMP;;;0
-25;3;6;Git;;;0
-25;3;12;Git;;;0
-25;3;18;Git;;;0
-25;3;6;GNU Octave;;;0
-25;3;12;GNU Octave;;;0
-25;3;18;GNU Octave;;;0
-25;3;6;Apache Maven 2;;;0
-25;3;12;Apache Maven 2;;;0
-25;3;18;Apache Maven 2;;;0
-26;3;6;Apache Maven 2;;;0
-26;3;12;Apache Maven 2;;;0
-26;3;18;Apache Maven 2;;;0
-26;3;6;PHP;;;0
-26;3;12;PHP;;;0
-26;3;18;PHP;;;0
-26;3;6;Mozilla Firefox;;;0
-26;3;12;Mozilla Firefox;;;0
-26;3;18;Mozilla Firefox;;;0
-40;2;6;Notepad++;;;0
-40;2;12;Notepad++;;;0
-40;2;18;Notepad++;;;0
-40;2;6;GIMP;;;0
-40;2;12;GIMP;;;0
-40;2;18;GIMP;;;0
-32;2;6;Mozilla Firefox;;;0
-32;2;12;Mozilla Firefox;;;0
-32;2;18;Mozilla Firefox;;;0
-32;2;6;Inkscape;;;0
-32;2;12;Inkscape;;;0
-32;2;18;Inkscape;;;0
-33;6;6;VRaptor2;;;0
-33;6;12;VRaptor2;;;0
-33;6;18;VRaptor2;;;0
-33;6;6;Amarok;;;0
-33;6;12;Amarok;;;0
-33;6;18;Amarok;;;0
-33;6;6;Notepad++;;;0
-33;6;12;Notepad++;;;0
-33;6;18;Notepad++;;;0
-33;6;6;Bash;;;0
-33;6;12;Bash;;;0
-33;6;18;Bash;;;0
-33;6;6;GIMP;;;0
-33;6;12;GIMP;;;0
-33;6;18;GIMP;;;0
-33;6;6;Mozilla Firefox;;;0
-33;6;12;Mozilla Firefox;;;0
-33;6;18;Mozilla Firefox;;;0
-43;2;6;Joomla!;;;0
-43;2;12;Joomla!;;;0
-43;2;18;Joomla!;;;0
-43;2;6;Notepad++;;;0
-43;2;12;Notepad++;;;0
-43;2;18;Notepad++;;;0
-44;3;6;Notepad++;;;0
-44;3;12;Notepad++;;;0
-44;3;18;Notepad++;;;0
-44;3;6;KDevelop;;;0
-44;3;12;KDevelop;;;0
-44;3;18;KDevelop;;;0
-44;3;6;R;;;0
-44;3;12;R;;;0
-44;3;18;R;;;0
-45;2;6;Vim;;;0
-45;2;12;Vim;;;0
-45;2;18;Vim;;;0
-45;2;6;R;;;0
-45;2;12;R;;;0
-45;2;18;R;;;0
-46;2;6;JabRef;;;0
-46;2;12;JabRef;;;0
-46;2;18;JabRef;;;0
-46;2;6;Vim;;;0
-46;2;12;Vim;;;0
-46;2;18;Vim;;;0
-48;2;6;GIMP;;;0
-48;2;12;GIMP;;;0
-48;2;18;GIMP;;;0
-48;2;6;Notepad++;;;0
-48;2;12;Notepad++;;;0
-48;2;18;Notepad++;;;0
-53;6;6;pgAdmin III;;;0
-53;6;12;pgAdmin III;;;0
-53;6;18;pgAdmin III;;;0
-53;6;6;R;;;0
-53;6;12;R;;;0
-53;6;18;R;;;0
-53;6;6;Mozilla Firefox;;;0
-53;6;12;Mozilla Firefox;;;0
-53;6;18;Mozilla Firefox;;;0
-53;6;6;GIMP;;;0
-53;6;12;GIMP;;;0
-53;6;18;GIMP;;;0
-53;6;6;Joomla!;;;0
-53;6;12;Joomla!;;;0
-53;6;18;Joomla!;;;0
-53;6;6;Notepad++;;;0
-53;6;12;Notepad++;;;0
-53;6;18;Notepad++;;;0
-94;3;6;Notepad++;;;0
-94;3;12;Notepad++;;;0
-94;3;18;Notepad++;;;0
-94;3;6;GIMP;;;0
-94;3;12;GIMP;;;0
-94;3;18;GIMP;;;0
-94;3;6;Eclipse Platform Project;;;0
-94;3;12;Eclipse Platform Project;;;0
-94;3;18;Eclipse Platform Project;;;0
-61;5;6;R;;;0
-61;5;12;R;;;0
-61;5;18;R;;;0
-61;5;6;Ruby;;;0
-61;5;12;Ruby;;;0
-61;5;18;Ruby;;;0
-61;5;6;GIMP;;;0
-61;5;12;GIMP;;;0
-61;5;18;GIMP;;;0
-61;5;6;GIMP;;;0
-61;5;12;GIMP;;;0
-61;5;18;GIMP;;;0
-61;5;6;CDLivre;;;0
-61;5;12;CDLivre;;;0
-61;5;18;CDLivre;;;0
-66;6;6;Eclipse Platform Project;;;0
-66;6;12;Eclipse Platform Project;;;0
-66;6;18;Eclipse Platform Project;;;0
-66;6;6;gnuplot;;;0
-66;6;12;gnuplot;;;0
-66;6;18;gnuplot;;;0
-66;6;6;Geany;;;0
-66;6;12;Geany;;;0
-66;6;18;Geany;;;0
-66;6;6;VLC media player;;;0
-66;6;12;VLC media player;;;0
-66;6;18;VLC media player;;;0
-66;6;6;Mozilla Firefox;;;0
-66;6;12;Mozilla Firefox;;;0
-66;6;18;Mozilla Firefox;;;0
-66;6;6;Notepad++;;;0
-66;6;12;Notepad++;;;0
-66;6;18;Notepad++;;;0
-67;5;6;NetBeans IDE;;;0
-67;5;12;NetBeans IDE;;;0
-67;5;18;NetBeans IDE;;;0
-67;5;6;R;;;0
-67;5;12;R;;;0
-67;5;18;R;;;0
-67;5;6;Mozilla Firefox;;;0
-67;5;12;Mozilla Firefox;;;0
-67;5;18;Mozilla Firefox;;;0
-67;5;6;Geany;;;0
-67;5;12;Geany;;;0
-67;5;18;Geany;;;0
-67;5;6;Eclipse Platform Project;;;0
-67;5;12;Eclipse Platform Project;;;0
-67;5;18;Eclipse Platform Project;;;0
-70;17;6;FreeMind;;;0
-70;17;12;FreeMind;;;0
-70;17;18;FreeMind;;;0
-70;17;6;Umbrello UML Modeller;ArgoUML;2;6
-70;17;12;Umbrello UML Modeller;ArgoUML;2;6
-70;17;18;Umbrello UML Modeller;ArgoUML;2;6
-70;17;6;ArgoUML;;;0
-70;17;12;ArgoUML;;;0
-70;17;18;ArgoUML;;;0
-70;17;6;Dia;;;0
-70;17;12;Dia;;;0
-70;17;18;Dia;;;0
-70;17;6;Code::Blocks;;;0
-70;17;12;Code::Blocks;;;0
-70;17;18;Code::Blocks;;;0
-70;17;6;NetBeans IDE;;;0
-70;17;12;NetBeans IDE;;;0
-70;17;18;NetBeans IDE;;;0
-70;17;6;Eclipse Java Development Tools (JDT);;;0
-70;17;12;Eclipse Java Development Tools (JDT);;;0
-70;17;18;Eclipse Java Development Tools (JDT);;;0
-70;17;6;GNU Emacs;Vim;3;10
-70;17;12;GNU Emacs;Vim;3;10
-70;17;18;GNU Emacs;Vim;3;10
-70;17;6;Notepad++;Vim;5;8
-70;17;6;Notepad++;GNU Emacs;6;8
-70;17;12;Notepad++;Vim;5;8
-70;17;12;Notepad++;GNU Emacs;6;8
-70;17;18;Notepad++;Vim;5;8
-70;17;18;Notepad++;GNU Emacs;6;8
-70;17;6;Vim;GNU Emacs;2;10
-70;17;12;Vim;GNU Emacs;2;10
-70;17;18;Vim;GNU Emacs;2;10
-70;17;6;gedit;;;0
-70;17;12;gedit;;;0
-70;17;18;gedit;;;0
-70;17;6;TeXworks;MiKTeX;1;3
-70;17;6;TeXworks;LaTeX;3;3
-70;17;12;TeXworks;MiKTeX;1;3
-70;17;12;TeXworks;LaTeX;3;3
-70;17;18;TeXworks;MiKTeX;1;3
-70;17;18;TeXworks;LaTeX;3;3
-70;17;18;TeXworks;GNU LilyPond Music Typesetter;14;3
-70;17;6;Texmaker;;;0
-70;17;12;Texmaker;;;0
-70;17;18;Texmaker;;;0
-70;17;6;GNU LilyPond Music Typesetter;LaTeX;3;7
-70;17;12;GNU LilyPond Music Typesetter;LaTeX;3;7
-70;17;18;GNU LilyPond Music Typesetter;LaTeX;3;7
-70;17;6;MiKTeX;LaTeX;2;4
-70;17;6;MiKTeX;TeXworks;4;3
-70;17;12;MiKTeX;LaTeX;2;4
-70;17;12;MiKTeX;TeXworks;4;3
-70;17;18;MiKTeX;LaTeX;2;4
-70;17;18;MiKTeX;TeXworks;4;3
-70;17;18;MiKTeX;GNU LilyPond Music Typesetter;17;4
-70;17;6;LaTeX;GNU LilyPond Music Typesetter;5;7
-70;17;12;LaTeX;GNU LilyPond Music Typesetter;5;7
-70;17;12;LaTeX;MiKTeX;10;4
-70;17;18;LaTeX;GNU LilyPond Music Typesetter;5;7
-70;17;18;LaTeX;MiKTeX;10;4
-70;17;18;LaTeX;TeXworks;17;3
-70;17;6;Doxygen;;;0
-70;17;12;Doxygen;;;0
-70;17;18;Doxygen;;;0
-71;6;6;Noosfero;;;0
-71;6;12;Noosfero;;;0
-71;6;18;Noosfero;;;0
-71;6;6;Ruby;;;0
-71;6;12;Ruby;;;0
-71;6;18;Ruby;;;0
-71;6;6;Ruby on Rails;;;0
-71;6;12;Ruby on Rails;;;0
-71;6;18;Ruby on Rails;;;0
-71;6;6;GIMP;;;0
-71;6;12;GIMP;;;0
-71;6;18;GIMP;;;0
-71;6;6;Redmine;;;0
-71;6;12;Redmine;;;0
-71;6;18;Redmine;;;0
-71;6;6;jQuery;;;0
-71;6;12;jQuery;;;0
-71;6;18;jQuery;;;0
-72;6;6;Bloodshed Dev-C++;;;0
-72;6;12;Bloodshed Dev-C++;;;0
-72;6;18;Bloodshed Dev-C++;;;0
-72;6;6;Foxit Portable Edition Launcher;;;0
-72;6;12;Foxit Portable Edition Launcher;;;0
-72;6;18;Foxit Portable Edition Launcher;;;0
-72;6;6;Mozilla Firefox;;;0
-72;6;12;Mozilla Firefox;;;0
-72;6;18;Mozilla Firefox;;;0
-72;6;6;VLC media player;;;0
-72;6;12;VLC media player;;;0
-72;6;18;VLC media player;;;0
-72;6;6;Notepad++;;;0
-72;6;12;Notepad++;;;0
-72;6;18;Notepad++;;;0
-72;6;6;Eclipse Platform Project;;;0
-72;6;12;Eclipse Platform Project;;;0
-72;6;18;Eclipse Platform Project;;;0
-73;10;6;GIMP;;;0
-73;10;12;GIMP;;;0
-73;10;18;GIMP;;;0
-73;10;6;Ruby;;;0
-73;10;12;Ruby;;;0
-73;10;18;Ruby;;;0
-73;10;6;TortoiseSVN;;;0
-73;10;12;TortoiseSVN;;;0
-73;10;18;TortoiseSVN;;;0
-73;10;6;Apache Tomcat;;;0
-73;10;12;Apache Tomcat;;;0
-73;10;18;Apache Tomcat;;;0
-73;10;6;NetBeans IDE;;;0
-73;10;12;NetBeans IDE;;;0
-73;10;18;NetBeans IDE;;;0
-73;10;6;WordPress;;;0
-73;10;12;WordPress;;;0
-73;10;18;WordPress;;;0
-73;10;6;Apache Maven 2;;;0
-73;10;12;Apache Maven 2;;;0
-73;10;18;Apache Maven 2;;;0
-73;10;6;Eclipse Platform Project;;;0
-73;10;12;Eclipse Platform Project;;;0
-73;10;18;Eclipse Platform Project;;;0
-73;10;6;Mozilla Firefox;;;0
-73;10;12;Mozilla Firefox;;;0
-73;10;18;Mozilla Firefox;;;0
-73;10;6;Notepad++;;;0
-73;10;12;Notepad++;;;0
-73;10;18;Notepad++;;;0
-77;8;6;JabRef;;;0
-77;8;12;JabRef;;;0
-77;8;18;JabRef;;;0
-77;8;6;Hibernate;;;0
-77;8;12;Hibernate;;;0
-77;8;18;Hibernate;;;0
-77;8;6;Apache Subversion;;;0
-77;8;12;Apache Subversion;;;0
-77;8;18;Apache Subversion;;;0
-77;8;6;Eclipse Platform Project;;;0
-77;8;12;Eclipse Platform Project;;;0
-77;8;18;Eclipse Platform Project;;;0
-77;8;6;Apache Tomcat;;;0
-77;8;12;Apache Tomcat;;;0
-77;8;18;Apache Tomcat;;;0
-77;8;6;Selenium;;;0
-77;8;12;Selenium;;;0
-77;8;18;Selenium;;;0
-77;8;6;Joomla!;;;0
-77;8;12;Joomla!;;;0
-77;8;18;Joomla!;;;0
-77;8;6;Mozilla Firefox;;;0
-77;8;12;Mozilla Firefox;;;0
-77;8;18;Mozilla Firefox;;;0
-65;6;6;pgAdmin III;;;0
-65;6;12;pgAdmin III;;;0
-65;6;18;pgAdmin III;;;0
-65;6;6;Geany;;;0
-65;6;12;Geany;;;0
-65;6;18;Geany;;;0
-65;6;6;GIMP;;;0
-65;6;12;GIMP;;;0
-65;6;18;GIMP;;;0
-65;6;6;Eclipse Platform Project;;;0
-65;6;12;Eclipse Platform Project;;;0
-65;6;18;Eclipse Platform Project;;;0
-65;6;6;Notepad++;;;0
-65;6;12;Notepad++;;;0
-65;6;18;Notepad++;;;0
-65;6;6;svn-atom;;;0
-65;6;12;svn-atom;;;0
-65;6;18;svn-atom;;;0
-78;12;6;Texmaker;;;0
-78;12;12;Texmaker;;;0
-78;12;18;Texmaker;;;0
-78;12;6;Okular (KDE);;;0
-78;12;12;Okular (KDE);;;0
-78;12;18;Okular (KDE);;;0
-78;12;6;NetBeans IDE;;;0
-78;12;12;NetBeans IDE;;;0
-78;12;18;NetBeans IDE;;;0
-78;12;6;Apache OpenOffice;;;0
-78;12;12;Apache OpenOffice;;;0
-78;12;18;Apache OpenOffice;;;0
-78;12;6;Spring Framework;;;0
-78;12;12;Spring Framework;;;0
-78;12;18;Spring Framework;;;0
-78;12;6;MySQL;;;0
-78;12;12;MySQL;;;0
-78;12;18;MySQL;;;0
-78;12;6;phpPgAdmin;;;0
-78;12;12;phpPgAdmin;;;0
-78;12;18;phpPgAdmin;;;0
-78;12;6;GIMP;;;0
-78;12;12;GIMP;;;0
-78;12;18;GIMP;;;0
-78;12;6;Mozilla Firefox;;;0
-78;12;12;Mozilla Firefox;;;0
-78;12;18;Mozilla Firefox;;;0
-78;12;6;Geany;;;0
-78;12;12;Geany;;;0
-78;12;18;Geany;;;0
-78;12;6;Eclipse Platform Project;;;0
-78;12;12;Eclipse Platform Project;;;0
-78;12;18;Eclipse Platform Project;;;0
-78;12;6;Notepad++;;;0
-78;12;12;Notepad++;;;0
-78;12;18;Notepad++;;;0
-83;26;6;Rhythmbox;;;0
-83;26;12;Rhythmbox;;;0
-83;26;18;Rhythmbox;;;0
-83;26;6;Wine;;;0
-83;26;12;Wine;;;0
-83;26;18;Wine;;;0
-83;26;6;Ubuntu;Fedora Packages;6;22
-83;26;12;Ubuntu;Fedora Packages;6;22
-83;26;18;Ubuntu;Fedora Packages;6;22
-83;26;6;GNOME Terminal;;;0
-83;26;12;GNOME Terminal;;;0
-83;26;18;GNOME Terminal;;;0
-83;26;6;bootstrap;;;0
-83;26;12;bootstrap;;;0
-83;26;18;bootstrap;;;0
-83;26;6;GNU Core Utilities;Bash;4;4
-83;26;12;GNU Core Utilities;Bash;4;4
-83;26;18;GNU Core Utilities;Bash;4;4
-83;26;6;Oracle VM VirtualBox;;;0
-83;26;12;Oracle VM VirtualBox;;;0
-83;26;18;Oracle VM VirtualBox;;;0
-83;26;6;Texmaker;;;0
-83;26;12;Texmaker;;;0
-83;26;18;Texmaker;;;0
-83;26;6;Git;;;0
-83;26;12;Git;;;0
-83;26;18;Git;;;0
-83;26;6;Geany;;;0
-83;26;12;Geany;;;0
-83;26;18;Geany;Vim;13;4
-83;26;6;GNU Make;;;0
-83;26;12;GNU Make;;;0
-83;26;18;GNU Make;;;0
-83;26;6;Bash;;;0
-83;26;12;Bash;;;0
-83;26;18;Bash;;;0
-83;26;6;GNU Diff Utilities;;;0
-83;26;12;GNU Diff Utilities;;;0
-83;26;18;GNU Diff Utilities;;;0
-83;26;6;MinGW - Minimalist GNU for Windows;;;0
-83;26;12;MinGW - Minimalist GNU for Windows;;;0
-83;26;18;MinGW - Minimalist GNU for Windows;;;0
-83;26;6;GNU Compiler Collection;;;0
-83;26;12;GNU Compiler Collection;;;0
-83;26;18;GNU Compiler Collection;;;0
-83;26;6;Mozilla Firefox;;;0
-83;26;12;Mozilla Firefox;;;0
-83;26;18;Mozilla Firefox;;;0
-83;26;6;kmplayer;;;0
-83;26;12;kmplayer;;;0
-83;26;18;kmplayer;;;0
-83;26;6;VLC media player;;;0
-83;26;12;VLC media player;;;0
-83;26;18;VLC media player;;;0
-83;26;6;MySQL;;;0
-83;26;12;MySQL;;;0
-83;26;18;MySQL;;;0
-83;26;6;Rocks;;;0
-83;26;12;Rocks;;;0
-83;26;18;Rocks;;;0
-83;26;6;CentOS;Ubuntu;5;6
-83;26;6;CentOS;Fedora Packages;6;6
-83;26;12;CentOS;Ubuntu;5;6
-83;26;12;CentOS;Fedora Packages;6;6
-83;26;18;CentOS;Ubuntu;5;6
-83;26;18;CentOS;Fedora Packages;6;6
-83;26;6;PuTTY;OpenSSH;1;8
-83;26;12;PuTTY;OpenSSH;1;8
-83;26;18;PuTTY;OpenSSH;1;8
-83;26;6;OpenSSH;PuTTY;1;8
-83;26;12;OpenSSH;PuTTY;1;8
-83;26;18;OpenSSH;PuTTY;1;8
-83;26;6;Fedora Packages;Ubuntu;5;22
-83;26;12;Fedora Packages;Ubuntu;5;22
-83;26;18;Fedora Packages;Ubuntu;5;22
-83;26;6;Vim;;;0
-83;26;12;Vim;;;0
-83;26;18;Vim;;;0
-83;26;6;gedit;;;0
-83;26;12;gedit;;;0
-83;26;18;gedit;;;0
-85;5;6;Notepad++;Vim;5;8
-85;5;12;Notepad++;Vim;5;8
-85;5;18;Notepad++;Vim;5;8
-85;5;6;Mozilla Firefox;;;0
-85;5;12;Mozilla Firefox;;;0
-85;5;18;Mozilla Firefox;;;0
-85;5;6;Vim;;;0
-85;5;12;Vim;;;0
-85;5;18;Vim;;;0
-85;5;6;Git;;;0
-85;5;12;Git;;;0
-85;5;18;Git;;;0
-85;5;6;NetBeans IDE;;;0
-85;5;12;NetBeans IDE;;;0
-85;5;18;NetBeans IDE;;;0
-86;9;6;sublime-text-community-packages;;;0
-86;9;12;sublime-text-community-packages;;;0
-86;9;18;sublime-text-community-packages;;;0
-86;9;6;sublime;;;0
-86;9;12;sublime;;;0
-86;9;18;sublime;;;0
-86;9;6;gedit;;;0
-86;9;12;gedit;;;0
-86;9;18;gedit;;;0
-86;9;6;Git;;;0
-86;9;12;Git;;;0
-86;9;18;Git;;;0
-86;9;6;NetBeans IDE;;;0
-86;9;12;NetBeans IDE;;;0
-86;9;18;NetBeans IDE;;;0
-86;9;6;Vim;;;0
-86;9;12;Vim;;;0
-86;9;18;Vim;;;0
-86;9;6;Mozilla Firefox;;;0
-86;9;12;Mozilla Firefox;;;0
-86;9;18;Mozilla Firefox;;;0
-86;9;6;Notepad++;Vim;5;8
-86;9;12;Notepad++;Vim;5;8
-86;9;18;Notepad++;Vim;5;8
-86;9;6;Eclipse Platform Project;;;0
-86;9;12;Eclipse Platform Project;;;0
-86;9;18;Eclipse Platform Project;;;0
-87;3;6;Eclipse Platform Project;;;0
-87;3;12;Eclipse Platform Project;;;0
-87;3;18;Eclipse Platform Project;;;0
-87;3;6;Notepad++;;;0
-87;3;12;Notepad++;;;0
-87;3;18;Notepad++;;;0
-87;3;6;NetBeans IDE;;;0
-87;3;12;NetBeans IDE;;;0
-87;3;18;NetBeans IDE;;;0
-88;3;6;Git;;;0
-88;3;12;Git;;;0
-88;3;18;Git;;;0
-88;3;6;GIMP;;;0
-88;3;12;GIMP;;;0
-88;3;18;GIMP;;;0
-88;3;6;Vim;;;0
-88;3;12;Vim;;;0
-88;3;18;Vim;;;0
-89;23;6;Notepad++;;;0
-89;23;12;Notepad++;;;0
-89;23;18;Notepad++;;;0
-89;23;6;NetBeans IDE;;;0
-89;23;12;NetBeans IDE;;;0
-89;23;18;NetBeans IDE;;;0
-89;23;6;Texmaker;Kile;2;3
-89;23;12;Texmaker;Kile;2;3
-89;23;18;Texmaker;Kile;2;3
-89;23;6;MiKTeX;LaTeX;2;4
-89;23;6;MiKTeX;TeX Live;5;4
-89;23;12;MiKTeX;LaTeX;2;4
-89;23;12;MiKTeX;TeX Live;5;4
-89;23;12;MiKTeX;Kile;9;5
-89;23;18;MiKTeX;LaTeX;2;4
-89;23;18;MiKTeX;TeX Live;5;4
-89;23;18;MiKTeX;Kile;9;5
-89;23;6;JabRef;;;0
-89;23;12;JabRef;;;0
-89;23;18;JabRef;;;0
-89;23;6;Kile;TeX Live;1;10
-89;23;12;Kile;TeX Live;1;10
-89;23;12;Kile;LaTeX;7;7
-89;23;18;Kile;TeX Live;1;10
-89;23;18;Kile;LaTeX;7;7
-89;23;18;Kile;MiKTeX;16;5
-89;23;6;TeX Live;Kile;1;10
-89;23;6;TeX Live;LaTeX;2;8
-89;23;12;TeX Live;Kile;1;10
-89;23;12;TeX Live;LaTeX;2;8
-89;23;18;TeX Live;Kile;1;10
-89;23;18;TeX Live;LaTeX;2;8
-89;23;18;TeX Live;MiKTeX;13;4
-89;23;6;LaTeX;TeX Live;1;8
-89;23;6;LaTeX;Kile;4;7
-89;23;12;LaTeX;TeX Live;1;8
-89;23;12;LaTeX;Kile;4;7
-89;23;12;LaTeX;MiKTeX;10;4
-89;23;18;LaTeX;TeX Live;1;8
-89;23;18;LaTeX;Kile;4;7
-89;23;18;LaTeX;MiKTeX;10;4
-89;23;6;Evince;;;0
-89;23;12;Evince;;;0
-89;23;18;Evince;;;0
-89;23;6;sublime-text-community-packages;;;0
-89;23;12;sublime-text-community-packages;;;0
-89;23;18;sublime-text-community-packages;;;0
-89;23;6;sublime;;;0
-89;23;12;sublime;;;0
-89;23;18;sublime;;;0
-89;23;6;Linux Kernel;;;0
-89;23;12;Linux Kernel;;;0
-89;23;18;Linux Kernel;Ubuntu;17;7
-89;23;6;phpMyAdmin;;;0
-89;23;12;phpMyAdmin;;;0
-89;23;18;phpMyAdmin;;;0
-89;23;6;PHP;;;0
-89;23;12;PHP;;;0
-89;23;18;PHP;;;0
-89;23;6;MySQL;;;0
-89;23;12;MySQL;;;0
-89;23;18;MySQL;;;0
-89;23;6;Apache OpenOffice;;;0
-89;23;12;Apache OpenOffice;;;0
-89;23;18;Apache OpenOffice;;;0
-89;23;6;Ubuntu;;;0
-89;23;12;Ubuntu;;;0
-89;23;18;Ubuntu;;;0
-89;23;6;Mozilla Firefox;;;0
-89;23;12;Mozilla Firefox;;;0
-89;23;18;Mozilla Firefox;;;0
-89;23;6;PuTTY;;;0
-89;23;12;PuTTY;;;0
-89;23;18;PuTTY;;;0
-89;23;6;MySQL Workbench;;;0
-89;23;12;MySQL Workbench;;;0
-89;23;18;MySQL Workbench;;;0
-89;23;6;Apache Subversion;TortoiseSVN;6;4
-89;23;12;Apache Subversion;TortoiseSVN;6;4
-89;23;18;Apache Subversion;TortoiseSVN;6;4
-89;23;6;TortoiseSVN;;;0
-89;23;12;TortoiseSVN;;;0
-89;23;18;TortoiseSVN;Apache Subversion;18;4
-89;23;6;Eclipse Platform Project;;;0
-89;23;12;Eclipse Platform Project;;;0
-89;23;18;Eclipse Platform Project;;;0
-96;10;6;Geany;;;0
-96;10;12;Geany;;;0
-96;10;18;Geany;;;0
-96;10;6;R;;;0
-96;10;12;R;;;0
-96;10;18;R;;;0
-96;10;6;Notepad++;;;0
-96;10;12;Notepad++;;;0
-96;10;18;Notepad++;;;0
-96;10;6;Mozilla Firefox;;;0
-96;10;12;Mozilla Firefox;;;0
-96;10;18;Mozilla Firefox;;;0
-96;10;6;Eclipse Platform Project;;;0
-96;10;12;Eclipse Platform Project;;;0
-96;10;18;Eclipse Platform Project;;;0
-96;10;6;Git;;;0
-96;10;12;Git;;;0
-96;10;18;Git;;;0
-96;10;6;Team Elements;Liferay Portal;2;16
-96;10;6;Team Elements;Jahia;6;15
-96;10;12;Team Elements;Liferay Portal;2;16
-96;10;12;Team Elements;Jahia;6;15
-96;10;18;Team Elements;Liferay Portal;2;16
-96;10;18;Team Elements;Jahia;6;15
-96;10;6;Liferay Portal;Team Elements;5;16
-96;10;12;Liferay Portal;Team Elements;5;16
-96;10;12;Liferay Portal;Jahia;8;18
-96;10;18;Liferay Portal;Team Elements;5;16
-96;10;18;Liferay Portal;Jahia;8;18
-96;10;6;Jahia;Liferay Portal;6;18
-96;10;12;Jahia;Liferay Portal;6;18
-96;10;12;Jahia;Team Elements;7;15
-96;10;18;Jahia;Liferay Portal;6;18
-96;10;18;Jahia;Team Elements;7;15
-96;10;6;MusicBrainz Picard;;;0
-96;10;12;MusicBrainz Picard;;;0
-96;10;18;MusicBrainz Picard;;;0
-100;2;6;compiladormepa;;;0
-100;2;12;compiladormepa;;;0
-100;2;18;compiladormepa;;;0
-100;2;6;compilador2007amp;;;0
-100;2;12;compilador2007amp;;;0
-100;2;18;compilador2007amp;;;0
-9;71;6;Vim;;;0
-9;71;12;Vim;;;0
-9;71;18;Vim;;;0
-9;71;6;Mozilla Firefox;;;0
-9;71;12;Mozilla Firefox;;;0
-9;71;18;Mozilla Firefox;;;0
-9;71;6;gedit;;;0
-9;71;12;gedit;;;0
-9;71;18;gedit;;;0
-9;71;6;Okular (KDE);;;0
-9;71;12;Okular (KDE);;;0
-9;71;18;Okular (KDE);;;0
-9;71;6;Bash;;;0
-9;71;12;Bash;;;0
-9;71;18;Bash;GNU grep;17;3
-9;71;6;bootstrap;;;0
-9;71;12;bootstrap;;;0
-9;71;18;bootstrap;;;0
-9;71;6;VLC media player;FFmpeg;1;30
-9;71;6;VLC media player;Media Player Classic - Home Cinema;2;27
-9;71;12;VLC media player;FFmpeg;1;30
-9;71;12;VLC media player;Media Player Classic - Home Cinema;2;27
-9;71;18;VLC media player;FFmpeg;1;30
-9;71;18;VLC media player;Media Player Classic - Home Cinema;2;27
-9;71;18;VLC media player;MusicBrainz Picard;14;12
-9;71;6;Oracle VM VirtualBox;;;0
-9;71;12;Oracle VM VirtualBox;;;0
-9;71;18;Oracle VM VirtualBox;;;0
-9;71;6;Ubuntu;;;0
-9;71;12;Ubuntu;;;0
-9;71;18;Ubuntu;;;0
-9;71;6;TortoiseSVN;;;0
-9;71;12;TortoiseSVN;;;0
-9;71;18;TortoiseSVN;Apache Subversion;18;4
-9;71;6;MiKTeX;LaTeX;2;4
-9;71;12;MiKTeX;LaTeX;2;4
-9;71;18;MiKTeX;LaTeX;2;4
-9;71;6;Apache OpenOffice;;;0
-9;71;12;Apache OpenOffice;;;0
-9;71;18;Apache OpenOffice;;;0
-9;71;6;PuTTY;;;0
-9;71;12;PuTTY;;;0
-9;71;18;PuTTY;;;0
-9;71;6;GNU Make;;;0
-9;71;12;GNU Make;;;0
-9;71;18;GNU Make;;;0
-9;71;6;GNU tar;;;0
-9;71;12;GNU tar;;;0
-9;71;18;GNU tar;;;0
-9;71;6;GNU grep;;;0
-9;71;12;GNU grep;;;0
-9;71;18;GNU grep;Bash;15;3
-9;71;6;Notepad++;Vim;5;8
-9;71;12;Notepad++;Vim;5;8
-9;71;18;Notepad++;Vim;5;8
-9;71;6;Joomla!;;;0
-9;71;12;Joomla!;;;0
-9;71;18;Joomla!;;;0
-9;71;6;Ruby;;;0
-9;71;12;Ruby;;;0
-9;71;18;Ruby;;;0
-9;71;6;VRaptor2;;;0
-9;71;12;VRaptor2;;;0
-9;71;18;VRaptor2;;;0
-9;71;6;Eclipse Java Development Tools (JDT);;;0
-9;71;12;Eclipse Java Development Tools (JDT);;;0
-9;71;18;Eclipse Java Development Tools (JDT);;;0
-9;71;6;KDevelop;;;0
-9;71;12;KDevelop;;;0
-9;71;18;KDevelop;;;0
-9;71;6;Git;;;0
-9;71;12;Git;;;0
-9;71;18;Git;;;0
-9;71;6;NetBeans IDE;;;0
-9;71;12;NetBeans IDE;;;0
-9;71;18;NetBeans IDE;;;0
-9;71;6;Eclipse PDT;;;0
-9;71;12;Eclipse PDT;;;0
-9;71;18;Eclipse PDT;;;0
-9;71;6;Apache HTTP Server;;;0
-9;71;12;Apache HTTP Server;;;0
-9;71;18;Apache HTTP Server;;;0
-9;71;6;PHP;;;0
-9;71;12;PHP;;;0
-9;71;18;PHP;;;0
-9;71;6;Apache Tomcat;;;0
-9;71;12;Apache Tomcat;Apache HTTP Server;11;6
-9;71;18;Apache Tomcat;Apache HTTP Server;11;6
-9;71;6;Apache Subversion;TortoiseSVN;6;4
-9;71;12;Apache Subversion;TortoiseSVN;6;4
-9;71;18;Apache Subversion;TortoiseSVN;6;4
-9;71;6;PyNcurses;;;0
-9;71;12;PyNcurses;;;0
-9;71;18;PyNcurses;;;0
-9;71;6;PDFCreator;;;0
-9;71;12;PDFCreator;;;0
-9;71;18;PDFCreator;;;0
-9;71;6;LaTeX;;;0
-9;71;12;LaTeX;MiKTeX;10;4
-9;71;18;LaTeX;MiKTeX;10;4
-9;71;6;MapFaces;;;0
-9;71;12;MapFaces;;;0
-9;71;18;MapFaces;;;0
-9;71;6;PrimeFaces;;;0
-9;71;12;PrimeFaces;;;0
-9;71;18;PrimeFaces;;;0
-9;71;6;Facelets;;;0
-9;71;12;Facelets;;;0
-9;71;18;Facelets;;;0
-9;71;6;Media Player Classic - Home Cinema;FFmpeg;1;24
-9;71;6;Media Player Classic - Home Cinema;VLC media player;2;27
-9;71;12;Media Player Classic - Home Cinema;FFmpeg;1;24
-9;71;12;Media Player Classic - Home Cinema;VLC media player;2;27
-9;71;18;Media Player Classic - Home Cinema;FFmpeg;1;24
-9;71;18;Media Player Classic - Home Cinema;VLC media player;2;27
-9;71;6;FFmpeg;VLC media player;1;30
-9;71;6;FFmpeg;Media Player Classic - Home Cinema;2;24
-9;71;12;FFmpeg;VLC media player;1;30
-9;71;12;FFmpeg;Media Player Classic - Home Cinema;2;24
-9;71;18;FFmpeg;VLC media player;1;30
-9;71;18;FFmpeg;Media Player Classic - Home Cinema;2;24
-9;71;6;R;;;0
-9;71;12;R;;;0
-9;71;18;R;;;0
-9;71;6;Amarok;;;0
-9;71;12;Amarok;VLC media player;7;10
-9;71;12;Amarok;MusicBrainz Picard;9;7
-9;71;18;Amarok;VLC media player;7;10
-9;71;18;Amarok;MusicBrainz Picard;9;7
-9;71;6;Geany;;;0
-9;71;12;Geany;;;0
-9;71;18;Geany;Vim;13;4
-9;71;6;Hibernate;;;0
-9;71;12;Hibernate;;;0
-9;71;18;Hibernate;;;0
-9;71;6;Redmine;;;0
-9;71;12;Redmine;Trac;12;8
-9;71;18;Redmine;Trac;12;8
-9;71;6;Spring Framework;;;0
-9;71;12;Spring Framework;;;0
-9;71;18;Spring Framework;;;0
-9;71;6;Apache Lucene;;;0
-9;71;12;Apache Lucene;;;0
-9;71;18;Apache Lucene;;;0
-9;71;6;MySQL;PostgreSQL Database Server;2;13
-9;71;12;MySQL;PostgreSQL Database Server;2;13
-9;71;18;MySQL;PostgreSQL Database Server;2;13
-9;71;6;PostgreSQL Database Server;MySQL;1;13
-9;71;12;PostgreSQL Database Server;MySQL;1;13
-9;71;18;PostgreSQL Database Server;MySQL;1;13
-9;71;6;XMMS;;;0
-9;71;12;XMMS;VLC media player;11;8
-9;71;12;XMMS;Amarok;12;7
-9;71;18;XMMS;VLC media player;11;8
-9;71;18;XMMS;Amarok;12;7
-9;71;6;FLAC - Free Lossless Audio Codec;;;0
-9;71;12;FLAC - Free Lossless Audio Codec;;;0
-9;71;18;FLAC - Free Lossless Audio Codec;;;0
-9;71;6;MediaWiki;;;0
-9;71;12;MediaWiki;;;0
-9;71;18;MediaWiki;phpMyAdmin;13;5
-9;71;6;Trac;Redmine;4;8
-9;71;12;Trac;Redmine;4;8
-9;71;18;Trac;Redmine;4;8
-9;71;6;phpMyAdmin;;;0
-9;71;12;phpMyAdmin;;;0
-9;71;18;phpMyAdmin;MediaWiki;17;5
-9;71;6;ArcEmu;;;0
-9;71;12;ArcEmu;;;0
-9;71;18;ArcEmu;;;0
-9;71;6;pgAdmin III;phpMyAdmin;3;5
-9;71;12;pgAdmin III;phpMyAdmin;3;5
-9;71;18;pgAdmin III;phpMyAdmin;3;5
-9;71;6;Dia;;;0
-9;71;12;Dia;;;0
-9;71;18;Dia;GIMP;15;7
-9;71;6;MusicBrainz Picard;;;0
-9;71;12;MusicBrainz Picard;VLC media player;7;12
-9;71;18;MusicBrainz Picard;VLC media player;7;12
-9;71;6;Banshee;;;0
-9;71;12;Banshee;MP3Gain;9;7
-9;71;18;Banshee;MP3Gain;9;7
-9;71;6;SQuirreL SQL Client;;;0
-9;71;12;SQuirreL SQL Client;;;0
-9;71;18;SQuirreL SQL Client;;;0
-9;71;6;jQuery;;;0
-9;71;12;jQuery;;;0
-9;71;18;jQuery;;;0
-9;71;6;aMSN;;;0
-9;71;12;aMSN;;;0
-9;71;18;aMSN;;;0
-9;71;6;Robocode;;;0
-9;71;12;Robocode;;;0
-9;71;18;Robocode;;;0
-9;71;6;Conky;;;0
-9;71;12;Conky;;;0
-9;71;18;Conky;;;0
-9;71;6;Spark;;;0
-9;71;12;Spark;;;0
-9;71;18;Spark;;;0
-9;71;6;Selenium;;;0
-9;71;12;Selenium;;;0
-9;71;18;Selenium;;;0
-9;71;6;Apache Maven 2;;;0
-9;71;12;Apache Maven 2;;;0
-9;71;18;Apache Maven 2;;;0
-9;71;6;Texmaker;;;0
-9;71;12;Texmaker;;;0
-9;71;18;Texmaker;;;0
-9;71;6;JabRef;;;0
-9;71;12;JabRef;;;0
-9;71;18;JabRef;;;0
-9;71;6;MP3Gain;Banshee;5;7
-9;71;12;MP3Gain;Banshee;5;7
-9;71;12;MP3Gain;Amarok;12;7
-9;71;18;MP3Gain;Banshee;5;7
-9;71;18;MP3Gain;Amarok;12;7
-9;71;6;easyMP3Gain;;;0
-9;71;12;easyMP3Gain;;;0
-9;71;18;easyMP3Gain;;;0
-9;71;6;JDownloader;;;0
-9;71;12;JDownloader;;;0
-9;71;18;JDownloader;;;0
-9;71;6;GIMP;;;0
-9;71;12;GIMP;;;0
-9;71;18;GIMP;;;0
-9;71;6;Eclipse Platform Project;;;0
-9;71;12;Eclipse Platform Project;;;0
-9;71;18;Eclipse Platform Project;;;0
+IdUsuario;ProjetosVisualizados;QuantosProjetosRecomendar;RecomendacoesSucesso
+16;23;6;2
+16;23;12;2
+16;23;18;2
+14;8;6;0
+14;8;12;0
+14;8;18;0
+15;2;6;0
+15;2;12;0
+15;2;18;0
+17;2;6;0
+17;2;12;0
+17;2;18;0
+18;2;6;0
+18;2;12;0
+18;2;18;0
+19;8;6;0
+19;8;12;1
+19;8;18;1
+39;2;6;0
+39;2;12;0
+39;2;18;0
+21;6;6;0
+21;6;12;0
+21;6;18;0
+25;3;6;0
+25;3;12;0
+25;3;18;0
+26;3;6;0
+26;3;12;0
+26;3;18;0
+40;2;6;0
+40;2;12;0
+40;2;18;0
+32;2;6;0
+32;2;12;0
+32;2;18;0
+33;6;6;0
+33;6;12;0
+33;6;18;0
+43;2;6;0
+43;2;12;0
+43;2;18;0
+44;3;6;0
+44;3;12;0
+44;3;18;0
+45;2;6;0
+45;2;12;0
+45;2;18;0
+46;2;6;0
+46;2;12;0
+46;2;18;0
+48;2;6;0
+48;2;12;0
+48;2;18;0
+53;6;6;0
+53;6;12;0
+53;6;18;0
+94;3;6;0
+94;3;12;0
+94;3;18;0
+61;5;6;0
+61;5;12;0
+61;5;18;0
+66;6;6;0
+66;6;12;0
+66;6;18;0
+67;5;6;0
+67;5;12;0
+67;5;18;0
+70;17;6;11
+70;17;12;12
+70;17;18;15
+71;6;6;0
+71;6;12;0
+71;6;18;0
+72;6;6;0
+72;6;12;0
+72;6;18;0
+73;10;6;0
+73;10;12;0
+73;10;18;0
+77;8;6;0
+77;8;12;0
+77;8;18;0
+65;6;6;0
+65;6;12;0
+65;6;18;0
+78;12;6;0
+78;12;12;0
+78;12;18;0
+83;26;6;7
+83;26;12;7
+83;26;18;8
+85;5;6;1
+85;5;12;1
+85;5;18;1
+86;9;6;1
+86;9;12;1
+86;9;18;1
+87;3;6;0
+87;3;12;0
+87;3;18;0
+88;3;6;0
+88;3;12;0
+88;3;18;0
+89;23;6;9
+89;23;12;12
+89;23;18;16
+96;10;6;4
+96;10;12;6
+96;10;18;6
+100;2;6;0
+100;2;12;0
+100;2;18;0
+09;71;6;14
+09;71;12;24
+09;71;18;32

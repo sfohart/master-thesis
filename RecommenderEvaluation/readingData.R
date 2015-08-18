@@ -5,7 +5,7 @@ itemBased <- read.table(
   sep=";")
 
 contentBased <- read.table(
-  "data/Avaliação Offline - Projetos Similares - Quantitativo.csv", 
+  "data/Avaliação Offline - Projetos Similares.csv", 
   header = TRUE,
   sep=";")
 
@@ -19,3 +19,4 @@ multicriteriaRecommendationLists <- read.table(
   "data/Recomendação Multicritério - Listas Concatenadas.csv", 
   header = TRUE,
   sep=";")
+

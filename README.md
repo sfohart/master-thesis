@@ -1,6 +1,6 @@
 # master-thesis
 
-Auxiliary files for writing of the dissertation Leandro Soriano Ferreira.
+Auxiliary files for writing of the Leandro Soriano Ferreira's dissertation.
 This repository is organized in the following way:
 
 * `Weka-files`: This directory contains all the input ARFF files used in the Weka tool [1], file

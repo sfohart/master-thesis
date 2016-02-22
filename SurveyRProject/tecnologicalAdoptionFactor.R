@@ -8,17 +8,19 @@ require(grid)
 require(dplyr)
 
 fator.tecnologico.labels <- c(
-  "Facilidade de testar e de ser avaliado por usuários de um modo geral",
-  "Utilização de desenvolvimento e de qualidade bem definidos por parte do fabricante",
-  "Compatibilidade com a infraestrutura existente, com os requisitos / necessidades / demandas, e/ou com a tecnologia em vigor",
-  "Facilidade de entender, utilizar e/ou adaptar",
-  "Vantagem(ns) em relação a custos com hardware, requisitos mínimos menos exigentes, custos com licença ou suporte, etc",
-  "Maior eficiência em relação à solução, livre ou não, utilizada atualmente",
-  "Maior confiabilidade em relação à solução, livre ou não, utilizada atualmente"  
+  "Ease of testing and be rated by users in general",
+  "Use of development and quality well-defined by the manufacturer",
+  "Compatibility with existing infrastructure with the requirements / needs / demands, and/or technology in place",
+  "Easy to understand, use and/or adapt",
+  "Advantages over hardware costs, minimum requirements less demanding, cost of license or support, etc.",
+  "Increased efficiency in relation to the solution, free or not, currently used",
+  "Increased reliability with respect to the solution, free or not, currently used"  
 )
 
+fator.tecnologico.title <- "In your opinion, to what extent these factors influence the\n FOSS adoption from a technological point of view?"
+
 # Quebrando o texto automaticamente (Só tirei os \n do vetor de cima e acrescentei as 3 linhas abaixo)
-tamanho <- 35 # O limite de caracteres (ele vai quebrar no espaço anterior a palavra que ultrapassa o limite)
+tamanho <- 50 # O limite de caracteres (ele vai quebrar no espaço anterior a palavra que ultrapassa o limite)
 (fator.tecnologico.labels <- strwrap(fator.tecnologico.labels, tamanho, simplify=F)) # Cria uma lista onde cada elemento é um vetor com até 40 caracteres. 
 (fator.tecnologico.labels <- mapply(paste, fator.tecnologico.labels, collapse='\n')) # Monta o vetor com as labels.
 
@@ -43,7 +45,7 @@ fator.tecnologico.resultado <- as.data.frame(
 
 fator.tecnologico.resultado <- cbind(
   fator.tecnologico.resultado,
-  Label = c("influência considerável ou alta","pouca ou nenhuma influência")
+  Label = c("high or considerable influence","little or no influence")
   #Label = c("pouca ou nenhuma influência","influência considerável ou alta")
 )
 
@@ -77,9 +79,9 @@ fator.tecnologico.resultado.agrupado.grafico <- ggplot(fator.tecnologico.resulta
   theme(   text = element_text(size=17, colour = "black"), axis.text.y = element_text(colour = "black")) +
   # Inverte os eixos X e Y
   coord_flip() + 
-  ylab('Frequência') + 
-  xlab('Fatores de adoção') +  
-  ggtitle("Na sua opinião, em que grau estes fatores influenciam\n a adoção de software livre do ponto de vista tecnológico?") +
+  ylab('Frequence') + 
+  xlab('Adoption Factors') +   
+  ggtitle(fator.tecnologico.title) +
   # Coloca titulo na legenda
   #scale_fill_manual('Legenda', values = c("#66CC99","#CC6666"))
   scale_fill_brewer(palette="Set2")
@@ -101,7 +103,7 @@ fator.tecnologico.dados.percentagem <- apply(
 )
 
 colnames(fator.tecnologico.dados) <- fator.tecnologico.labels
-rownames(fator.tecnologico.dados) <- c("nenhuma influência","pouca influência","influência considerável","muita influência")
+rownames(fator.tecnologico.dados) <- c("No influence", "little influence", "considerable influence", "too much influence")
 
 
 par(mar=c(5, 16, 4, 2))
@@ -119,7 +121,7 @@ fator.tecnologico.dados.percentagem.graph <- barplot(
   col=rainbow(4),
   xpd=FALSE,
   cex.main = 0.9,
-  main="Na sua opinião,\n em que grau destes fatores influenciam\n a adoção de software livre em ambientes coorporativos?"
+  main=fator.tecnologico.title
 )
 
 text(   

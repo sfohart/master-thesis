@@ -8,16 +8,18 @@ require(grid)
 require(dplyr)
 
 fator.mercadologico.labels <- c(
-  "Condições de mercado do software\n (custo, confiabilidade, uso\n por outras companhias concorrentes,\n dentre outros)",
-  "Condições de mercado de uma\n organização (fôlego financeiro,\n tamanho das equipes,\n distribuição geográfica,\n dentre outros)",
-  "Incentivo do governo\n para uso de software livre",
-  "Marketing negativo por parte dos\n vendedores de software proprietário",
-  "Disponibilidade de especialistas\n e serviços de suporte externos à organização",
-  "Existência de um\n caso de sucesso no mercado"  
+  "Market conditions software (cost, reliability, use by other competing companies, etc.)",
+  "Market conditions of an organization (financial strength, the team size, geographical distribution, etc.)",
+  "Government incentives for the use of FOSS",
+  "Negative marketing by the proprietary software vendors",
+  "Availability of external experts and support services to the organization",
+  "Existence of a success in the market"  
 )
 
+fator.mercadologico.title <- "In your opinion, to what extent these factors influence the\n FOSS adoption from a technological point of view?"
+
 # Quebrando o texto automaticamente (Só tirei os \n do vetor de cima e acrescentei as 3 linhas abaixo)
-tamanho <- 35 # O limite de caracteres (ele vai quebrar no espaço anterior a palavra que ultrapassa o limite)
+tamanho <- 50 # O limite de caracteres (ele vai quebrar no espaço anterior a palavra que ultrapassa o limite)
 (fator.mercadologico.labels <- strwrap(fator.mercadologico.labels, tamanho, simplify=F)) # Cria uma lista onde cada elemento é um vetor com até 40 caracteres. 
 (fator.mercadologico.labels <- mapply(paste, fator.mercadologico.labels, collapse='\n')) # Monta o vetor com as labels.
 
@@ -41,7 +43,7 @@ fator.mercadologico.resultado <- as.data.frame(
 
 fator.mercadologico.resultado <- cbind(
   fator.mercadologico.resultado,
-  Label = c("influência considerável ou alta","pouca ou nenhuma influência")
+  Label = c("high or considerable influence","little or no influence")
   #Label = c("pouca ou nenhuma influência","influência considerável ou alta")
 )
 
@@ -69,15 +71,18 @@ fator.mercadologico.resultado.agrupado <- mutate(
 
 my_theme <- theme_update(panel.grid.major = element_line(colour = "grey90"), panel.grid.minor = element_blank(), panel.background = element_blank(), axis.ticks = element_blank(), legend.position = "top") 
 
+
+
+
 fator.mercadologico.resultado.agrupado.grafico <- ggplot(fator.mercadologico.resultado.agrupado, aes(x = time, y = V1, fill = Label)) + # Informa os dados
   geom_bar(stat='identity', position="stack", color = "black") + # Informa que tu quer um gráfico de barras
   geom_text (aes(x = time, y = cumulativo, ymax = 152, label = sprintf("%d\n(%.2f%%)",V1, 100 * V1/152) ), size = 4, fontface = "bold", fontfamily= "Arial") +
   theme(   text = element_text(size=17, colour = "black"), axis.text.y = element_text(colour = "black")) +
   # Inverte os eixos X e Y
   coord_flip() + 
-  ylab('Frequência') + 
-  xlab('Fatores de adoção') +  
-  ggtitle("Na sua opinião, em que grau estes fatores influenciam\n a adoção de software livre do ponto de vista tecnológico?") +
+  ylab('Frequence') + 
+  xlab('Adoption Factors') +   
+  ggtitle(fator.mercadologico.title) +
   # Coloca titulo na legenda
   #scale_fill_manual('Legenda', values = c("#66CC99","#CC6666"))
   scale_fill_brewer(palette="Set2")
@@ -99,7 +104,7 @@ fator.mercadologico.dados.percentagem <- apply(
 )
 
 colnames(fator.mercadologico.dados) <- fator.mercadologico.labels
-rownames(fator.mercadologico.dados) <- c("nenhuma influência","pouca influência","influência considerável","muita influência")
+rownames(fator.mercadologico.dados) <- c("No influence", "little influence", "considerable influence", "too much influence")
 
 
 par(mar=c(5, 16, 4, 2))
@@ -117,7 +122,7 @@ fator.mercadologico.dados.percentagem.graph <- barplot(
   col=rainbow(4),
   xpd=FALSE,
   cex.main = 0.9,
-  main="Na sua opinião,\n em que grau destes fatores influenciam\n a adoção de software livre em ambientes coorporativos?"
+  main=fator.mercadologico.title
 )
 
 text(   

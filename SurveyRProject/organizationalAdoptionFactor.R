@@ -8,15 +8,17 @@ require(grid)
 require(dplyr)
 
 fator.organizacional.labels <- c(
-  "Disponibilidade de recursos\n para pesquisa/estudo das soluções\n que façam uso de software livre",
-  "Custo Total de\n Propriedade do Software\n (envolve benefícios/desvantagens\n técnicas e de negócio)",
-  "Relevância do Software\n para a Organização",
-  "Experiência dos membros\n da equipe com uso/customização\n de software livre",
-  "Apoio à disseminação\n e uso de software livre\n por parte da alta gerência" 
+  "Availability of resources for research / study of solutions that make use of FOSS",
+  "Total Cost of Ownership",
+  "Software's Relevance for the Organization",
+  "Experience of team members to use / customizing FOSS",
+  "Support for the dissemination and use of FOSS by the top management" 
 )
 
+fator.organizacional.title <- "In your opinion, to what extent these factors influence the\n FOSS adoption from a technological point of view?"
+
 # Quebrando o texto automaticamente (Só tirei os \n do vetor de cima e acrescentei as 3 linhas abaixo)
-tamanho <- 35 # O limite de caracteres (ele vai quebrar no espaço anterior a palavra que ultrapassa o limite)
+tamanho <- 50 # O limite de caracteres (ele vai quebrar no espaço anterior a palavra que ultrapassa o limite)
 (fator.organizacional.labels <- strwrap(fator.organizacional.labels, tamanho, simplify=F)) # Cria uma lista onde cada elemento é um vetor com até 40 caracteres. 
 (fator.organizacional.labels <- mapply(paste, fator.organizacional.labels, collapse='\n')) # Monta o vetor com as labels.
 
@@ -39,7 +41,7 @@ fator.organizacional.resultado <- as.data.frame(
 
 fator.organizacional.resultado <- cbind(
   fator.organizacional.resultado,
-  Label = c("influência considerável ou alta","pouca ou nenhuma influência")
+  Label = c("high or considerable influence","little or no influence")
   #Label = c("pouca ou nenhuma influência","influência considerável ou alta")
 )
 
@@ -65,6 +67,8 @@ fator.organizacional.resultado.agrupado <- mutate(
 # gráfico novo, mostrando barras empilhadas, e agrupando os níveis de influência
 #######################################################################################
 
+
+
 my_theme <- theme_update(panel.grid.major = element_line(colour = "grey90"), panel.grid.minor = element_blank(), panel.background = element_blank(), axis.ticks = element_blank(), legend.position = "top") 
 
 fator.organizacional.resultado.agrupado.grafico <- ggplot(fator.organizacional.resultado.agrupado, aes(x = time, y = V1, fill = Label)) + # Informa os dados
@@ -73,9 +77,9 @@ fator.organizacional.resultado.agrupado.grafico <- ggplot(fator.organizacional.r
   theme(   text = element_text(size=17, colour = "black"), axis.text.y = element_text(colour = "black")) +
   # Inverte os eixos X e Y
   coord_flip() + 
-  ylab('Frequência') + 
-  xlab('Fatores de adoção') +  
-  ggtitle("Na sua opinião, em que grau estes fatores influenciam\n a adoção de software livre do ponto de vista tecnológico?") +
+  ylab('Frequence') + 
+  xlab('Adoption Factors') +  
+  ggtitle(fator.organizacional.title) +
   # Coloca titulo na legenda
   #scale_fill_manual('Legenda', values = c("#66CC99","#CC6666"))
   scale_fill_brewer(palette="Set2")
@@ -97,7 +101,7 @@ fator.organizacional.dados.percentagem <- apply(
 )
 
 colnames(fator.organizacional.dados) <- fator.organizacional.labels
-rownames(fator.organizacional.dados) <- c("nenhuma influência","pouca influência","influência considerável","muita influência")
+rownames(fator.organizacional.dados) <- c("No influence", "little influence", "considerable influence", "too much influence")
 
 
 par(mar=c(5, 16, 4, 2))
@@ -115,7 +119,7 @@ fator.organizacional.dados.percentagem.graph <- barplot(
   col=rainbow(4),
   xpd=FALSE,
   cex.main = 0.9,
-  main="Na sua opinião,\n em que grau destes fatores influenciam\n a adoção de software livre em ambientes coorporativos?"
+  main=fator.organizacional.title
 )
 
 text(   

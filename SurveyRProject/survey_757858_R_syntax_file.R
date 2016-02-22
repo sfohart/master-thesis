@@ -37,25 +37,25 @@ names(data)[8] <- "G1_Q0001"
 
 data[, 9] <- as.numeric(data[, 9])
 attributes(data)$variable.labels[9] <- "[Software de Sistema (sistemas operacionais, servidores, utilitários, drivers de equipamentos, ferramentas de diagnóstico, etc)] 
-	Que tipo de software livre você utiliza?"
+Que tipo de software livre você utiliza?"
 data[, 9] <- factor(data[, 9], levels=c(1,0),labels=c("Yes","Not Selected"))
 names(data)[9] <- "G1_Q0002_SQ001"
 
 data[, 10] <- as.numeric(data[, 10])
 attributes(data)$variable.labels[10] <- "[Ferramentas de Programação (compiladores, IDE\'s, depuradores, interpretadores, linkadores, etc)] 
-	Que tipo de software livre você utiliza?"
+Que tipo de software livre você utiliza?"
 data[, 10] <- factor(data[, 10], levels=c(1,0),labels=c("Yes","Not Selected"))
 names(data)[10] <- "G1_Q0002_SQ002"
 
 data[, 11] <- as.numeric(data[, 11])
 attributes(data)$variable.labels[11] <- "[Software de Uso Geral (jogos, navegadores de internet, etc)] 
-	Que tipo de software livre você utiliza?"
+Que tipo de software livre você utiliza?"
 data[, 11] <- factor(data[, 11], levels=c(1,0),labels=c("Yes","Not Selected"))
 names(data)[11] <- "G1_Q0002_SQ003"
 
 data[, 12] <- as.numeric(data[, 12])
 attributes(data)$variable.labels[12] <- "[Software de Uso Específico (software para área médica, química, de engenharia, dentre outros)] 
-	Que tipo de software livre você utiliza?"
+Que tipo de software livre você utiliza?"
 data[, 12] <- factor(data[, 12], levels=c(1,0),labels=c("Yes","Not Selected"))
 names(data)[12] <- "G1_Q0002_SQ004"
 
@@ -82,49 +82,49 @@ names(data)[16] <- "G1_Q0006"
 data[, 17] <- as.character(data[, 17])
 attributes(data)$variable.labels[17] <- "[Facilidade de testar e de ser avaliado por usuários de um modo geral] 
 
-	Na sua opinião, em que grau estes fatores influenciam a adoção de software livre do ponto de vista tecnológico?"
+Na sua opinião, em que grau estes fatores influenciam a adoção de software livre do ponto de vista tecnológico?"
 data[, 17] <- factor(data[, 17], levels=c("A1","A2","A3","A4"),labels=c("nenhuma influência","pouca influência","influência considerável","muita influência"))
 names(data)[17] <- "G2_Q0001_1"
 
 data[, 18] <- as.character(data[, 18])
 attributes(data)$variable.labels[18] <- "[Utilização de desenvolvimento e de qualidade bem definidos por parte do fabricante] 
 
-	Na sua opinião, em que grau estes fatores influenciam a adoção de software livre do ponto de vista tecnológico?"
+Na sua opinião, em que grau estes fatores influenciam a adoção de software livre do ponto de vista tecnológico?"
 data[, 18] <- factor(data[, 18], levels=c("A1","A2","A3","A4"),labels=c("nenhuma influência","pouca influência","influência considerável","muita influência"))
 names(data)[18] <- "G2_Q0001_7"
 
 data[, 19] <- as.character(data[, 19])
 attributes(data)$variable.labels[19] <- "[Compatibilidade com a infraestrutura existente, com os requisitos/necessidades/demandas, e/ou com a tecnologia em vigor] 
 
-	Na sua opinião, em que grau estes fatores influenciam a adoção de software livre do ponto de vista tecnológico?"
+Na sua opinião, em que grau estes fatores influenciam a adoção de software livre do ponto de vista tecnológico?"
 data[, 19] <- factor(data[, 19], levels=c("A1","A2","A3","A4"),labels=c("nenhuma influência","pouca influência","influência considerável","muita influência"))
 names(data)[19] <- "G2_Q0001_2"
 
 data[, 20] <- as.character(data[, 20])
 attributes(data)$variable.labels[20] <- "[Facilidade de entender, utilizar e/ou adaptar] 
 
-	Na sua opinião, em que grau estes fatores influenciam a adoção de software livre do ponto de vista tecnológico?"
+Na sua opinião, em que grau estes fatores influenciam a adoção de software livre do ponto de vista tecnológico?"
 data[, 20] <- factor(data[, 20], levels=c("A1","A2","A3","A4"),labels=c("nenhuma influência","pouca influência","influência considerável","muita influência"))
 names(data)[20] <- "G2_Q0001_3"
 
 data[, 21] <- as.character(data[, 21])
 attributes(data)$variable.labels[21] <- "[Vantagem(ns) em relação a custos com hardware, requisitos mínimos menos exigentes, custos com licença ou suporte, etc] 
 
-	Na sua opinião, em que grau estes fatores influenciam a adoção de software livre do ponto de vista tecnológico?"
+Na sua opinião, em que grau estes fatores influenciam a adoção de software livre do ponto de vista tecnológico?"
 data[, 21] <- factor(data[, 21], levels=c("A1","A2","A3","A4"),labels=c("nenhuma influência","pouca influência","influência considerável","muita influência"))
 names(data)[21] <- "G2_Q0001_4"
 
 data[, 22] <- as.character(data[, 22])
 attributes(data)$variable.labels[22] <- "[Maior eficiência em relação à  solução, livre ou não, utilizada atualmente] 
 
-	Na sua opinião, em que grau estes fatores influenciam a adoção de software livre do ponto de vista tecnológico?"
+Na sua opinião, em que grau estes fatores influenciam a adoção de software livre do ponto de vista tecnológico?"
 data[, 22] <- factor(data[, 22], levels=c("A1","A2","A3","A4"),labels=c("nenhuma influência","pouca influência","influência considerável","muita influência"))
 names(data)[22] <- "G2_Q0001_5"
 
 data[, 23] <- as.character(data[, 23])
 attributes(data)$variable.labels[23] <- "[Maior confiabilidade em relação à solução, livre ou não, utilizada atualmente] 
 
-	Na sua opinião, em que grau estes fatores influenciam a adoção de software livre do ponto de vista tecnológico?"
+Na sua opinião, em que grau estes fatores influenciam a adoção de software livre do ponto de vista tecnológico?"
 data[, 23] <- factor(data[, 23], levels=c("A1","A2","A3","A4"),labels=c("nenhuma influência","pouca influência","influência considerável","muita influência"))
 names(data)[23] <- "G2_Q0001_6"
 
@@ -134,31 +134,31 @@ names(data)[24] <- "G2_Q0002"
 
 data[, 25] <- as.character(data[, 25])
 attributes(data)$variable.labels[25] <- "[Disponibilidade de recursos para pesquisa/estudo das soluções que façam uso de software livre] 
-	Na sua opinião, em que grau destes fatores influenciam a adoção de software livre em ambientes coorporativos?"
+Na sua opinião, em que grau destes fatores influenciam a adoção de software livre em ambientes coorporativos?"
 data[, 25] <- factor(data[, 25], levels=c("A1","A2","A3","A4"),labels=c("nenhuma influência","pouca influência","influência considerável","muita influência"))
 names(data)[25] <- "G3_Q0001_1"
 
 data[, 26] <- as.character(data[, 26])
 attributes(data)$variable.labels[26] <- "[Custo Total de Propriedade do Software (envolve benefícios/desvantagens técnicas e de negócio)] 
-	Na sua opinião, em que grau destes fatores influenciam a adoção de software livre em ambientes coorporativos?"
+Na sua opinião, em que grau destes fatores influenciam a adoção de software livre em ambientes coorporativos?"
 data[, 26] <- factor(data[, 26], levels=c("A1","A2","A3","A4"),labels=c("nenhuma influência","pouca influência","influência considerável","muita influência"))
 names(data)[26] <- "G3_Q0001_2"
 
 data[, 27] <- as.character(data[, 27])
 attributes(data)$variable.labels[27] <- "[Relevância do Software para a Organização] 
-	Na sua opinião, em que grau destes fatores influenciam a adoção de software livre em ambientes coorporativos?"
+Na sua opinião, em que grau destes fatores influenciam a adoção de software livre em ambientes coorporativos?"
 data[, 27] <- factor(data[, 27], levels=c("A1","A2","A3","A4"),labels=c("nenhuma influência","pouca influência","influência considerável","muita influência"))
 names(data)[27] <- "G3_Q0001_3"
 
 data[, 28] <- as.character(data[, 28])
 attributes(data)$variable.labels[28] <- "[Experiência dos membros da equipe com uso/customização de software livre] 
-	Na sua opinião, em que grau destes fatores influenciam a adoção de software livre em ambientes coorporativos?"
+Na sua opinião, em que grau destes fatores influenciam a adoção de software livre em ambientes coorporativos?"
 data[, 28] <- factor(data[, 28], levels=c("A1","A2","A3","A4"),labels=c("nenhuma influência","pouca influência","influência considerável","muita influência"))
 names(data)[28] <- "G3_Q0001_4"
 
 data[, 29] <- as.character(data[, 29])
 attributes(data)$variable.labels[29] <- "[Apoio à disseminação e uso de software livre por parte da alta gerência] 
-	Na sua opinião, em que grau destes fatores influenciam a adoção de software livre em ambientes coorporativos?"
+Na sua opinião, em que grau destes fatores influenciam a adoção de software livre em ambientes coorporativos?"
 data[, 29] <- factor(data[, 29], levels=c("A1","A2","A3","A4"),labels=c("nenhuma influência","pouca influência","influência considerável","muita influência"))
 names(data)[29] <- "G3_Q0001_5"
 
@@ -168,37 +168,37 @@ names(data)[30] <- "G3_Q0002"
 
 data[, 31] <- as.character(data[, 31])
 attributes(data)$variable.labels[31] <- "[Condições de mercado do software (custo, confiabilidade, uso por outras companhias concorrentes, dentre outros)] 
-	Na sua opinião, em que grau os fatores abaixo influenciam a adoção de um software livre do ponto de vista mercadológico?"
+Na sua opinião, em que grau os fatores abaixo influenciam a adoção de um software livre do ponto de vista mercadológico?"
 data[, 31] <- factor(data[, 31], levels=c("A1","A2","A3","A4"),labels=c("nenhuma influência","pouca influência","influência considerável","muita influência"))
 names(data)[31] <- "G4_Q0001_1"
 
 data[, 32] <- as.character(data[, 32])
 attributes(data)$variable.labels[32] <- "[Condições de mercado de uma organização (fôlego financeiro, tamanho das equipes, distribuição geográfica, dentre outros)] 
-	Na sua opinião, em que grau os fatores abaixo influenciam a adoção de um software livre do ponto de vista mercadológico?"
+Na sua opinião, em que grau os fatores abaixo influenciam a adoção de um software livre do ponto de vista mercadológico?"
 data[, 32] <- factor(data[, 32], levels=c("A1","A2","A3","A4"),labels=c("nenhuma influência","pouca influência","influência considerável","muita influência"))
 names(data)[32] <- "G4_Q0001_5"
 
 data[, 33] <- as.character(data[, 33])
 attributes(data)$variable.labels[33] <- "[Incentivo do governo para uso de software livre] 
-	Na sua opinião, em que grau os fatores abaixo influenciam a adoção de um software livre do ponto de vista mercadológico?"
+Na sua opinião, em que grau os fatores abaixo influenciam a adoção de um software livre do ponto de vista mercadológico?"
 data[, 33] <- factor(data[, 33], levels=c("A1","A2","A3","A4"),labels=c("nenhuma influência","pouca influência","influência considerável","muita influência"))
 names(data)[33] <- "G4_Q0001_2"
 
 data[, 34] <- as.character(data[, 34])
 attributes(data)$variable.labels[34] <- "[Marketing negativo por parte dos vendedores de software proprietário] 
-	Na sua opinião, em que grau os fatores abaixo influenciam a adoção de um software livre do ponto de vista mercadológico?"
+Na sua opinião, em que grau os fatores abaixo influenciam a adoção de um software livre do ponto de vista mercadológico?"
 data[, 34] <- factor(data[, 34], levels=c("A1","A2","A3","A4"),labels=c("nenhuma influência","pouca influência","influência considerável","muita influência"))
 names(data)[34] <- "G4_Q0001_6"
 
 data[, 35] <- as.character(data[, 35])
 attributes(data)$variable.labels[35] <- "[Disponibilidade de especialistas e serviços de suporte externos à organização] 
-	Na sua opinião, em que grau os fatores abaixo influenciam a adoção de um software livre do ponto de vista mercadológico?"
+Na sua opinião, em que grau os fatores abaixo influenciam a adoção de um software livre do ponto de vista mercadológico?"
 data[, 35] <- factor(data[, 35], levels=c("A1","A2","A3","A4"),labels=c("nenhuma influência","pouca influência","influência considerável","muita influência"))
 names(data)[35] <- "G4_Q0001_3"
 
 data[, 36] <- as.character(data[, 36])
 attributes(data)$variable.labels[36] <- "[Existência de um caso de sucesso no mercado] 
-	Na sua opinião, em que grau os fatores abaixo influenciam a adoção de um software livre do ponto de vista mercadológico?"
+Na sua opinião, em que grau os fatores abaixo influenciam a adoção de um software livre do ponto de vista mercadológico?"
 data[, 36] <- factor(data[, 36], levels=c("A1","A2","A3","A4"),labels=c("nenhuma influência","pouca influência","influência considerável","muita influência"))
 names(data)[36] <- "G4_Q0001_4"
 
@@ -208,31 +208,31 @@ names(data)[37] <- "G4_Q0002"
 
 data[, 38] <- as.character(data[, 38])
 attributes(data)$variable.labels[38] <- "[Perfil para pesquisa de soluções em software livre] 
-	Na sua opinião, em que grau estes fatores influenciam a adoção de software livre, do ponto de vista de um indivíduo qualquer?"
+Na sua opinião, em que grau estes fatores influenciam a adoção de software livre, do ponto de vista de um indivíduo qualquer?"
 data[, 38] <- factor(data[, 38], levels=c("A1","A2","A3","A4"),labels=c("nenhuma influência","pouca influência","influência considerável","muita influência"))
 names(data)[38] <- "G5_Q0001_1"
 
 data[, 39] <- as.character(data[, 39])
 attributes(data)$variable.labels[39] <- "[Certeza na escolha de uma solução de software livre como a mais adequada para o problema em questão] 
-	Na sua opinião, em que grau estes fatores influenciam a adoção de software livre, do ponto de vista de um indivíduo qualquer?"
+Na sua opinião, em que grau estes fatores influenciam a adoção de software livre, do ponto de vista de um indivíduo qualquer?"
 data[, 39] <- factor(data[, 39], levels=c("A1","A2","A3","A4"),labels=c("nenhuma influência","pouca influência","influência considerável","muita influência"))
 names(data)[39] <- "G5_Q0001_2"
 
 data[, 40] <- as.character(data[, 40])
 attributes(data)$variable.labels[40] <- "[Adoção prévia de um software livre com sucesso] 
-	Na sua opinião, em que grau estes fatores influenciam a adoção de software livre, do ponto de vista de um indivíduo qualquer?"
+Na sua opinião, em que grau estes fatores influenciam a adoção de software livre, do ponto de vista de um indivíduo qualquer?"
 data[, 40] <- factor(data[, 40], levels=c("A1","A2","A3","A4"),labels=c("nenhuma influência","pouca influência","influência considerável","muita influência"))
 names(data)[40] <- "G5_Q0001_3"
 
 data[, 41] <- as.character(data[, 41])
 attributes(data)$variable.labels[41] <- "[Existência de algum caso de sucesso entre pessoas do círculo de contatos] 
-	Na sua opinião, em que grau estes fatores influenciam a adoção de software livre, do ponto de vista de um indivíduo qualquer?"
+Na sua opinião, em que grau estes fatores influenciam a adoção de software livre, do ponto de vista de um indivíduo qualquer?"
 data[, 41] <- factor(data[, 41], levels=c("A1","A2","A3","A4"),labels=c("nenhuma influência","pouca influência","influência considerável","muita influência"))
 names(data)[41] <- "G5_Q0001_4"
 
 data[, 42] <- as.character(data[, 42])
 attributes(data)$variable.labels[42] <- "[Aspectos políticos e/ou ideológicos] 
-	Na sua opinião, em que grau estes fatores influenciam a adoção de software livre, do ponto de vista de um indivíduo qualquer?"
+Na sua opinião, em que grau estes fatores influenciam a adoção de software livre, do ponto de vista de um indivíduo qualquer?"
 data[, 42] <- factor(data[, 42], levels=c("A1","A2","A3","A4"),labels=c("nenhuma influência","pouca influência","influência considerável","muita influência"))
 names(data)[42] <- "G5_Q0001_5"
 
@@ -309,67 +309,67 @@ names(data)[57] <- "G6_Q0003_other"
 
 data[, 58] <- as.numeric(data[, 58])
 attributes(data)$variable.labels[58] <- "[Desenvolvimento de Software] 
-	O produto que você ou sua organização desenvolve apóia qual setor da economia?(por exemplo, desenvolvimento de software, finanças, energia, automóvel, etc)?"
+O produto que você ou sua organização desenvolve apóia qual setor da economia?(por exemplo, desenvolvimento de software, finanças, energia, automóvel, etc)?"
 data[, 58] <- factor(data[, 58], levels=c(1,0),labels=c("Yes","Not Selected"))
 names(data)[58] <- "G6_Q0004_1"
 
 data[, 59] <- as.numeric(data[, 59])
 attributes(data)$variable.labels[59] <- "[Infraestrutura de TI] 
-	O produto que você ou sua organização desenvolve apóia qual setor da economia?(por exemplo, desenvolvimento de software, finanças, energia, automóvel, etc)?"
+O produto que você ou sua organização desenvolve apóia qual setor da economia?(por exemplo, desenvolvimento de software, finanças, energia, automóvel, etc)?"
 data[, 59] <- factor(data[, 59], levels=c(1,0),labels=c("Yes","Not Selected"))
 names(data)[59] <- "G6_Q0004_2"
 
 data[, 60] <- as.numeric(data[, 60])
 attributes(data)$variable.labels[60] <- "[Finanças] 
-	O produto que você ou sua organização desenvolve apóia qual setor da economia?(por exemplo, desenvolvimento de software, finanças, energia, automóvel, etc)?"
+O produto que você ou sua organização desenvolve apóia qual setor da economia?(por exemplo, desenvolvimento de software, finanças, energia, automóvel, etc)?"
 data[, 60] <- factor(data[, 60], levels=c(1,0),labels=c("Yes","Not Selected"))
 names(data)[60] <- "G6_Q0004_3"
 
 data[, 61] <- as.numeric(data[, 61])
 attributes(data)$variable.labels[61] <- "[Energia] 
-	O produto que você ou sua organização desenvolve apóia qual setor da economia?(por exemplo, desenvolvimento de software, finanças, energia, automóvel, etc)?"
+O produto que você ou sua organização desenvolve apóia qual setor da economia?(por exemplo, desenvolvimento de software, finanças, energia, automóvel, etc)?"
 data[, 61] <- factor(data[, 61], levels=c(1,0),labels=c("Yes","Not Selected"))
 names(data)[61] <- "G6_Q0004_4"
 
 data[, 62] <- as.numeric(data[, 62])
 attributes(data)$variable.labels[62] <- "[Automobilístico] 
-	O produto que você ou sua organização desenvolve apóia qual setor da economia?(por exemplo, desenvolvimento de software, finanças, energia, automóvel, etc)?"
+O produto que você ou sua organização desenvolve apóia qual setor da economia?(por exemplo, desenvolvimento de software, finanças, energia, automóvel, etc)?"
 data[, 62] <- factor(data[, 62], levels=c(1,0),labels=c("Yes","Not Selected"))
 names(data)[62] <- "G6_Q0004_5"
 
 data[, 63] <- as.numeric(data[, 63])
 attributes(data)$variable.labels[63] <- "[Engenharia] 
-	O produto que você ou sua organização desenvolve apóia qual setor da economia?(por exemplo, desenvolvimento de software, finanças, energia, automóvel, etc)?"
+O produto que você ou sua organização desenvolve apóia qual setor da economia?(por exemplo, desenvolvimento de software, finanças, energia, automóvel, etc)?"
 data[, 63] <- factor(data[, 63], levels=c(1,0),labels=c("Yes","Not Selected"))
 names(data)[63] <- "G6_Q0004_6"
 
 data[, 64] <- as.numeric(data[, 64])
 attributes(data)$variable.labels[64] <- "[Químico] 
-	O produto que você ou sua organização desenvolve apóia qual setor da economia?(por exemplo, desenvolvimento de software, finanças, energia, automóvel, etc)?"
+O produto que você ou sua organização desenvolve apóia qual setor da economia?(por exemplo, desenvolvimento de software, finanças, energia, automóvel, etc)?"
 data[, 64] <- factor(data[, 64], levels=c(1,0),labels=c("Yes","Not Selected"))
 names(data)[64] <- "G6_Q0004_7"
 
 data[, 65] <- as.numeric(data[, 65])
 attributes(data)$variable.labels[65] <- "[Saúde] 
-	O produto que você ou sua organização desenvolve apóia qual setor da economia?(por exemplo, desenvolvimento de software, finanças, energia, automóvel, etc)?"
+O produto que você ou sua organização desenvolve apóia qual setor da economia?(por exemplo, desenvolvimento de software, finanças, energia, automóvel, etc)?"
 data[, 65] <- factor(data[, 65], levels=c(1,0),labels=c("Yes","Not Selected"))
 names(data)[65] <- "G6_Q0004_8"
 
 data[, 66] <- as.numeric(data[, 66])
 attributes(data)$variable.labels[66] <- "[Educacional] 
-	O produto que você ou sua organização desenvolve apóia qual setor da economia?(por exemplo, desenvolvimento de software, finanças, energia, automóvel, etc)?"
+O produto que você ou sua organização desenvolve apóia qual setor da economia?(por exemplo, desenvolvimento de software, finanças, energia, automóvel, etc)?"
 data[, 66] <- factor(data[, 66], levels=c(1,0),labels=c("Yes","Not Selected"))
 names(data)[66] <- "G6_Q0004_9"
 
 data[, 67] <- as.numeric(data[, 67])
 attributes(data)$variable.labels[67] <- "[Telecomunicações] 
-	O produto que você ou sua organização desenvolve apóia qual setor da economia?(por exemplo, desenvolvimento de software, finanças, energia, automóvel, etc)?"
+O produto que você ou sua organização desenvolve apóia qual setor da economia?(por exemplo, desenvolvimento de software, finanças, energia, automóvel, etc)?"
 data[, 67] <- factor(data[, 67], levels=c(1,0),labels=c("Yes","Not Selected"))
 names(data)[67] <- "G6_Q0004_10"
 
 data[, 68] <- as.character(data[, 68])
 attributes(data)$variable.labels[68] <- "[Outros] 
-	O produto que você ou sua organização desenvolve apóia qual setor da economia?(por exemplo, desenvolvimento de software, finanças, energia, automóvel, etc)?"
+O produto que você ou sua organização desenvolve apóia qual setor da economia?(por exemplo, desenvolvimento de software, finanças, energia, automóvel, etc)?"
 names(data)[68] <- "G6_Q0004_other"
 
 data[, 69] <- as.character(data[, 69])

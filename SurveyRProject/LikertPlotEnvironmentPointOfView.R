@@ -10,7 +10,7 @@ require(dplyr)
 load("surveyData.RData")
 
 survey_responses = c("nenhuma influência","pouca influência","influência considerável","muita influência")
-likert_levels = c("no influence","little influence","considerable influence","much influence")
+likert_levels = c("no influence","few influence","considerable influence","high influence")
 
 fossAdoption.environment.data <- data[,31:36]
 
